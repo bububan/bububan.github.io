@@ -4,16 +4,16 @@
   
     
     <entry>
-      <title>test</title>
-      <link href="/2026/03/17/test/"/>
-      <url>/2026/03/17/test/</url>
+      <title>bu3</title>
+      <link href="/2026/03/17/2026-3-18-wen2/"/>
+      <url>/2026/03/17/2026-3-18-wen2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第一篇文章</p><div class="note default simple"><p>内容+++</p></div><div class="timeline blue"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>时间轴样式</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div>        </div>        <div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-05-15 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.6">2.6.3 -&gt; 2.6.6</a></p></div>        </div>        <div class='timeline-item-content'><p>不需要额外处理。</p></div>      </div></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
       
       
       <categories>
           
-          <category> -个人日记 </category>
+          <category> -测试 </category>
           
       </categories>
       
@@ -54,16 +54,16 @@
     
     
     <entry>
-      <title>bu3</title>
-      <link href="/2026/03/17/2026-3-18-wen2/"/>
-      <url>/2026/03/17/2026-3-18-wen2/</url>
+      <title>test</title>
+      <link href="/2026/03/17/test/"/>
+      <url>/2026/03/17/test/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第一篇文章</p><div class="note default simple"><p>内容+++</p></div><div class="timeline blue"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>时间轴样式</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div>        </div>        <div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-05-15 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.6">2.6.3 -&gt; 2.6.6</a></p></div>        </div>        <div class='timeline-item-content'><p>不需要额外处理。</p></div>      </div></div>]]></content>
       
       
       <categories>
           
-          <category> -测试 </category>
+          <category> -个人日记 </category>
           
       </categories>
       
@@ -89,6 +89,31 @@
       <categories>
           
           <category> -博客测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu6</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang2/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -测试 </category>
           
       </categories>
       
@@ -179,31 +204,6 @@
     
     
     <entry>
-      <title>bu6</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang2/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu8</title>
       <link href="/2026/03/17/2026-3-18-wenzhang5/"/>
       <url>/2026/03/17/2026-3-18-wenzhang5/</url>
@@ -276,17 +276,6 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -298,11 +287,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -325,6 +314,17 @@
       <url>/css/custom.css</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* ========================================   统一全站背景：复用顶部横幅图作为全站背景   ======================================== */body {  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;  background-size: cover !important;  background-position: center !important;  background-attachment: fixed !important;  background-repeat: no-repeat !important;}#page-header.home-index {  background: transparent !important;  box-shadow: none !important;}#page-header.home-index::before {  content: '';  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.5);  z-index: 1;}#page-header.home-index .site-title,#page-header.home-index #nav,#page-header.home-index .subtitle {  position: relative;  z-index: 2;}.recent-posts .card-content {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 6px 16px rgba(0,0,0,0.12);  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover {  transform: translateY(-5px);  box-shadow: 0 10px 24px rgba(0,0,0,0.18);}aside .card-widget {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);}#post-comment {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  padding: 20px;}#web_bg {  position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.3);  z-index: -1;  pointer-events: none;}.recent-posts .card-content,aside .card-widget {  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover,aside .card-widget:hover {  transform: translateY(-5px);  box-shadow: 0 8px 20px rgba(0,0,0,0.15);}/* 美化文章卡片封面图 */.recent-posts .cover-div {  border-radius: 10px 10px 0 0;  overflow: hidden;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);  transition: transform 0.3s ease;}.recent-posts .cover-div:hover {  transform: scale(1.03);}.recent-posts .cover-div img {  width: 100%;  height: 200px;  object-fit: cover;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
       
     </entry>
     
@@ -364,9 +364,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
@@ -375,11 +375,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/box/animation/index.html"/>
-      <url>/box/animation/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>titledatecomments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -397,11 +397,11 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title></title>
+      <link href="/box/animation/index.html"/>
+      <url>/box/animation/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>titledatecomments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
       
     </entry>
     
