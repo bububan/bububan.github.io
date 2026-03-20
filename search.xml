@@ -79,31 +79,6 @@
     
     
     <entry>
-      <title>bu1</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第二篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu5</title>
       <link href="/2026/03/17/2026-3-18-wenzhang1/"/>
       <url>/2026/03/17/2026-3-18-wenzhang1/</url>
@@ -179,11 +154,11 @@
     
     
     <entry>
-      <title>bu9</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
+      <title>bu1</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第二篇文章</p>]]></content>
       
       
       <categories>
@@ -248,6 +223,31 @@
     
     
     <entry>
+      <title>bu9</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bu10</title>
       <link href="/2026/03/17/2026-3-18-wenzhang7/"/>
       <url>/2026/03/17/2026-3-18-wenzhang7/</url>
@@ -276,6 +276,17 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -298,17 +309,6 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
@@ -321,10 +321,21 @@
     
     <entry>
       <title></title>
+      <link href="/js/fomal.js"/>
+      <url>/js/fomal.js</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 小猫咪 start */if (document.body.clientWidth > 992) {  function getBasicInfo() {    /* 窗口高度 */    var ViewH = $(window).height();    /* document高度 */    var DocH = $("body")[0].scrollHeight;    /* 滚动的高度 */    var ScrollTop = $(window).scrollTop();    /* 可滚动的高度 */    var S_V = DocH - ViewH;    var Band_H = ScrollTop / (DocH - ViewH) * 100;    return {      ViewH: ViewH,      DocH: DocH,      ScrollTop: ScrollTop,      Band_H: Band_H,      S_V: S_V    }  };  function show(basicInfo) {    if (basicInfo.ScrollTop > 0.001) {      $(".neko").css('display', 'block');    } else {      $(".neko").css('display', 'none');    }  }  (function ($) {    $.fn.nekoScroll = function (option) {      var defaultSetting = {        top: '0',        scroWidth: 6 + 'px',        z_index: 9999,        zoom: 0.9,        borderRadius: 5 + 'px',        right: 55.6 + 'px',        nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",        hoverMsg: "春天啦~",        color: "var(--theme-color)",        during: 500,        blog_body: "body",      };      var setting = $.extend(defaultSetting, option);      var getThis = this.prop("className") !== "" ? "." + this.prop("className") : this.prop("id") !== "" ? "#" +        this.prop("id") : this.prop("nodeName");      if ($(".neko").length == 0) {        this.after("<div class=\"neko\" id=" + setting.nekoname + " data-msg=\"" + setting.hoverMsg + "\"></div>");      }      let basicInfo = getBasicInfo();      $(getThis)        .css({          'position': 'fixed',          'width': setting.scroWidth,          'top': setting.top,          'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',          'z-index': setting.z_index,          'background-color': setting.bgcolor,          "border-radius": setting.borderRadius,          'right': setting.right,          'background-image': 'url(' + setting.scImg + ')',          'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',          'background-size': 'contain'        });      $("#" + setting.nekoname)        .css({          'position': 'fixed',          'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',          'z-index': setting.z_index * 10,          'right': setting.right,          'background-image': 'url(' + setting.nekoImg + ')',        });      show(getBasicInfo());      $(window)        .scroll(function () {          let basicInfo = getBasicInfo();          show(basicInfo);          $(getThis)            .css({              'position': 'fixed',              'width': setting.scroWidth,              'top': setting.top,              'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',              'z-index': setting.z_index,              'background-color': setting.bgcolor,              "border-radius": setting.borderRadius,              'right': setting.right,              'background-image': 'url(' + setting.scImg + ')',              'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',              'background-size': 'contain'            });          $("#" + setting.nekoname)            .css({              'position': 'fixed',              'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',              'z-index': setting.z_index * 10,              'right': setting.right,              'background-image': 'url(' + setting.nekoImg + ')',            });          if (basicInfo.ScrollTop == basicInfo.S_V) {            $("#" + setting.nekoname)              .addClass("showMsg")          } else {            $("#" + setting.nekoname)              .removeClass("showMsg");            $("#" + setting.nekoname)              .attr("data-msg", setting.hoverMsg);          }        });      this.click(function (e) {        btf.scrollToDest(0, 500)      });      $("#" + setting.nekoname)        .click(function () {          btf.scrollToDest(0, 500)        });      return this;    }  })(jQuery);  $(document).ready(function () {    //部分自定义    $("#myscoll").nekoScroll({      bgcolor: 'rgb(0 0 0 / .5)', //背景颜色，没有绳子背景图片时有效      borderRadius: '2em',      zoom: 0.9    }    );    //自定义（去掉以下注释，并注释掉其他的查看效果）    /*    $("#myscoll").nekoScroll({        nekoname:'neko1', //nekoname，相当于id        nekoImg:'img/猫咪.png', //neko的背景图片        scImg:"img/绳1.png", //绳子的背景图片        bgcolor:'#1e90ff', //背景颜色，没有绳子背景图片时有效        zoom:0.9, //绳子长度的缩放值        hoverMsg:'你好~喵', //鼠标浮动到neko上方的对话框信息        right:'100px', //距离页面右边的距离        fontFamily:'楷体', //对话框字体        fontSize:'14px', //对话框字体的大小        color:'#1e90ff', //对话框字体颜色        scroWidth:'8px', //绳子的宽度        z_index:100, //不用解释了吧        during:1200, //从顶部到底部滑动的时长    });    */  })}/* 小猫咪 end */]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/cursor.js"/>
       <url>/js/cursor.js</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();// 为了屏蔽异步加载导致无法读取颜色值，这里统一用哈希表预处理const map = new Map();map.set('red', "rgb(241, 71, 71)");map.set('orange', "rgb(241, 162, 71)");map.set('yellow', "rgb(241, 238, 71)")map.set('purple', "rgb(179, 71, 241)");map.set('blue', "rgb(102, 204, 255)");map.set('gray', "rgb(226, 226, 226)");map.set('green', "rgb(57, 197, 187)");map.set('whitegray', "rgb(241, 241, 241)");map.set('pink', "rgb(237, 112, 155)");map.set('black', "rgb(0, 0, 0)");map.set('darkblue', "rgb(97, 100, 159)");map.set('heoblue', "rgb(66, 90, 239)");class Cursor {  constructor() {    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  move(left, top) {    this.cursor.style["left"] = `${left}px`;    this.cursor.style["top"] = `${top}px`;  }  create() {    if (!this.cursor) {      this.cursor = document.createElement("div");      this.cursor.id = "cursor";      this.cursor.classList.add("hidden");      document.body.append(this.cursor);    }    var el = document.getElementsByTagName('*');    for (let i = 0; i < el.length; i++)      if (getStyle2(el[i], "cursor") == "pointer")        this.pt.push(el[i].outerHTML);    var colorVal = map.get(localStorage.getItem("themeColor"));    document.body.appendChild((this.scr = document.createElement("style")));    this.scr.innerHTML = `* {* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto}`;  }    refresh() {    this.scr.remove();    this.cursor.classList.remove("hover");    this.cursor.classList.remove("active");    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  init() {    document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");    document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");    document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };    document.onmouseenter = e => this.cursor.classList.remove("hidden");    document.onmouseleave = e => this.cursor.classList.add("hidden");    document.onmousedown = e => this.cursor.classList.add("active");    document.onmouseup = e => this.cursor.classList.remove("active");  }  render() {    if (this.pos.prev) {      // 跟踪速度调节      this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);      this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);      this.move(this.pos.prev.x, this.pos.prev.y);    } else {      this.pos.prev = this.pos.curr;    }    requestAnimationFrame(() => this.render());  }}(() => {  CURSOR = new Cursor();  // 需要重新获取列表时，使用 CURSOR.refresh()})();/* 恶搞标题 start *///动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👀跑哪里去了~';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐖抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});/* 恶搞标题 end */]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();// 为了屏蔽异步加载导致无法读取颜色值，这里统一用哈希表预处理const map = new Map();map.set('red', "rgb(241, 71, 71)");map.set('orange', "rgb(241, 162, 71)");map.set('yellow', "rgb(241, 238, 71)")map.set('purple', "rgb(179, 71, 241)");map.set('blue', "rgb(102, 204, 255)");map.set('gray', "rgb(226, 226, 226)");map.set('green', "rgb(57, 197, 187)");map.set('whitegray', "rgb(241, 241, 241)");map.set('pink', "rgb(237, 112, 155)");map.set('black', "rgb(0, 0, 0)");map.set('darkblue', "rgb(97, 100, 159)");map.set('heoblue', "rgb(66, 90, 239)");class Cursor {  constructor() {    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  move(left, top) {    this.cursor.style["left"] = `${left}px`;    this.cursor.style["top"] = `${top}px`;  }  create() {    if (!this.cursor) {      this.cursor = document.createElement("div");      this.cursor.id = "cursor";      this.cursor.classList.add("hidden");      document.body.append(this.cursor);    }    var el = document.getElementsByTagName('*');    for (let i = 0; i < el.length; i++)      if (getStyle2(el[i], "cursor") == "pointer")        this.pt.push(el[i].outerHTML);    var colorVal = map.get(localStorage.getItem("themeColor"));    document.body.appendChild((this.scr = document.createElement("style")));    this.scr.innerHTML = `* {* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto}`;  }    refresh() {    this.scr.remove();    this.cursor.classList.remove("hover");    this.cursor.classList.remove("active");    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  init() {    document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");    document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");    document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };    document.onmouseenter = e => this.cursor.classList.remove("hidden");    document.onmouseleave = e => this.cursor.classList.add("hidden");    document.onmousedown = e => this.cursor.classList.add("active");    document.onmouseup = e => this.cursor.classList.remove("active");  }  render() {    if (this.pos.prev) {      // 跟踪速度调节      this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);      this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);      this.move(this.pos.prev.x, this.pos.prev.y);    } else {      this.pos.prev = this.pos.curr;    }    requestAnimationFrame(() => this.render());  }}(() => {  CURSOR = new Cursor();  // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
       
     </entry>
     
@@ -343,28 +354,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/fomal.js"/>
-      <url>/js/fomal.js</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 控制台输出字符画 start */var now1 = new Date();function createtime1() {  // 修正日期格式为更通用的 ISO 格式（避免浏览器兼容性问题）  var grt = new Date("2026-03-20T14:00:00"); // 原为 "20/3/2026 14:00:00"，部分环境可能解析失败  now1.setTime(now1.getTime() + 250); // 每次调用增加 250ms，模拟天数动态变化  var days = (now1 - grt) / 1000 / 60 / 60 / 24;  var dnum = Math.floor(days);  // 修正 ascll 数组，移除多余的逗号和换行  var ascll = [    `欢迎来到BUBUBANの小家!`,    `Future is now 🍭🍭🍭`,    "小站已经苟活",    dnum,    "天啦!",    "©2022 By BUBUBAN",    // 原代码中引用了 ascll[6]，但数组只有6项，这里补一个空字符串避免报错（可根据需要调整）    ""  ];  setTimeout(    console.log.bind(      console,      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}%c ${ascll[6]}\n`,      "color:#39c5bb",      "",      "color:#39c5bb",      "color:#39c5bb",      "",      "color:#39c5bb",      ""    )  );}createtime1();function createtime2() {  var ascll2 = [    `NCC2-036`,    `调用前置摄像头拍照成功，识别为「大聪明」`,    `Photo captured: `,    ` 🤪 `  ];  setTimeout(    console.log.bind(      console,      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,      "color:white; background-color:#10bcc0",      "",      "",      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'    )  );  setTimeout(    console.log.bind(      console,      "%c WELCOME %c 欢迎光临，大聪明",      "color:white; background-color:#23c682",      ""    )  );  setTimeout(    console.warn.bind(      console,      "%c ⚡ Powered by BUBUBAN %c 你正在访问BUBUBANの小家",      "color:white; background-color:#f0ad4e",      ""    )  );  setTimeout(    console.log.bind(      console,      "%c W23-12 %c 系统监测到你已打开控制台",      "color:white; background-color:#4f90d9",      ""    )  );  setTimeout(    console.warn.bind(      console,      "%c S013-782 %c 你现在正处于监控中",      "color:white; background-color:#d9534f",      ""    )  );}createtime2();// 重写console方法（放在最后，确保之前的输出不受影响）console.log = function () {};console.error = function () {};console.warn = function () {};/* 控制台输出字符画 end */]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
@@ -375,9 +364,20 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
@@ -397,9 +397,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       

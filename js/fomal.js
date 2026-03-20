@@ -1,102 +1,149 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 控制台输出字符画 start */
-var now1 = new Date();
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 小猫咪 start */
+if (document.body.clientWidth > 992) {
+  function getBasicInfo() {
+    /* 窗口高度 */
+    var ViewH = $(window).height();
+    /* document高度 */
+    var DocH = $("body")[0].scrollHeight;
+    /* 滚动的高度 */
+    var ScrollTop = $(window).scrollTop();
+    /* 可滚动的高度 */
+    var S_V = DocH - ViewH;
+    var Band_H = ScrollTop / (DocH - ViewH) * 100;
+    return {
+      ViewH: ViewH,
+      DocH: DocH,
+      ScrollTop: ScrollTop,
+      Band_H: Band_H,
+      S_V: S_V
+    }
+  };
+  function show(basicInfo) {
+    if (basicInfo.ScrollTop > 0.001) {
+      $(".neko").css('display', 'block');
+    } else {
+      $(".neko").css('display', 'none');
+    }
+  }
+  (function ($) {
+    $.fn.nekoScroll = function (option) {
+      var defaultSetting = {
+        top: '0',
+        scroWidth: 6 + 'px',
+        z_index: 9999,
+        zoom: 0.9,
+        borderRadius: 5 + 'px',
+        right: 55.6 + 'px',
+        nekoImg: "https://bu.dusays.com/2022/07/20/62d812db74be9.png",
+        hoverMsg: "春天啦~",
+        color: "var(--theme-color)",
+        during: 500,
+        blog_body: "body",
+      };
+      var setting = $.extend(defaultSetting, option);
+      var getThis = this.prop("className") !== "" ? "." + this.prop("className") : this.prop("id") !== "" ? "#" +
+        this.prop("id") : this.prop("nodeName");
+      if ($(".neko").length == 0) {
+        this.after("<div class=\"neko\" id=" + setting.nekoname + " data-msg=\"" + setting.hoverMsg + "\"></div>");
+      }
+      let basicInfo = getBasicInfo();
+      $(getThis)
+        .css({
+          'position': 'fixed',
+          'width': setting.scroWidth,
+          'top': setting.top,
+          'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',
+          'z-index': setting.z_index,
+          'background-color': setting.bgcolor,
+          "border-radius": setting.borderRadius,
+          'right': setting.right,
+          'background-image': 'url(' + setting.scImg + ')',
+          'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',
+          'background-size': 'contain'
+        });
+      $("#" + setting.nekoname)
+        .css({
+          'position': 'fixed',
+          'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',
+          'z-index': setting.z_index * 10,
+          'right': setting.right,
+          'background-image': 'url(' + setting.nekoImg + ')',
+        });
+      show(getBasicInfo());
+      $(window)
+        .scroll(function () {
+          let basicInfo = getBasicInfo();
+          show(basicInfo);
+          $(getThis)
+            .css({
+              'position': 'fixed',
+              'width': setting.scroWidth,
+              'top': setting.top,
+              'height': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 + 'px',
+              'z-index': setting.z_index,
+              'background-color': setting.bgcolor,
+              "border-radius": setting.borderRadius,
+              'right': setting.right,
+              'background-image': 'url(' + setting.scImg + ')',
+              'background-image': '-webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent)', 'border-radius': '2em',
+              'background-size': 'contain'
+            });
+          $("#" + setting.nekoname)
+            .css({
+              'position': 'fixed',
+              'top': basicInfo.Band_H * setting.zoom * basicInfo.ViewH * 0.01 - 50 + 'px',
+              'z-index': setting.z_index * 10,
+              'right': setting.right,
+              'background-image': 'url(' + setting.nekoImg + ')',
+            });
+          if (basicInfo.ScrollTop == basicInfo.S_V) {
+            $("#" + setting.nekoname)
+              .addClass("showMsg")
+          } else {
+            $("#" + setting.nekoname)
+              .removeClass("showMsg");
+            $("#" + setting.nekoname)
+              .attr("data-msg", setting.hoverMsg);
+          }
+        });
+      this.click(function (e) {
+        btf.scrollToDest(0, 500)
+      });
+      $("#" + setting.nekoname)
+        .click(function () {
+          btf.scrollToDest(0, 500)
+        });
+      return this;
+    }
+  })(jQuery);
 
-function createtime1() {
-  // 修正日期格式为更通用的 ISO 格式（避免浏览器兼容性问题）
-  var grt = new Date("2026-03-20T14:00:00"); // 原为 "20/3/2026 14:00:00"，部分环境可能解析失败
-  now1.setTime(now1.getTime() + 250); // 每次调用增加 250ms，模拟天数动态变化
-  var days = (now1 - grt) / 1000 / 60 / 60 / 24;
-  var dnum = Math.floor(days);
-
-  // 修正 ascll 数组，移除多余的逗号和换行
-  var ascll = [
-    `欢迎来到BUBUBANの小家!`,
-    `Future is now 🍭🍭🍭`,
-    "小站已经苟活",
-    dnum,
-    "天啦!",
-    "©2022 By BUBUBAN",
-    // 原代码中引用了 ascll[6]，但数组只有6项，这里补一个空字符串避免报错（可根据需要调整）
-    ""
-  ];
-
-  setTimeout(
-    console.log.bind(
-      console,
-      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}%c ${ascll[6]}\n`,
-      "color:#39c5bb",
-      "",
-      "color:#39c5bb",
-      "color:#39c5bb",
-      "",
-      "color:#39c5bb",
-      ""
-    )
-  );
+  $(document).ready(function () {
+    //部分自定义
+    $("#myscoll").nekoScroll({
+      bgcolor: 'rgb(0 0 0 / .5)', //背景颜色，没有绳子背景图片时有效
+      borderRadius: '2em',
+      zoom: 0.9
+    }
+    );
+    //自定义（去掉以下注释，并注释掉其他的查看效果）
+    /*
+    $("#myscoll").nekoScroll({
+        nekoname:'neko1', //nekoname，相当于id
+        nekoImg:'img/猫咪.png', //neko的背景图片
+        scImg:"img/绳1.png", //绳子的背景图片
+        bgcolor:'#1e90ff', //背景颜色，没有绳子背景图片时有效
+        zoom:0.9, //绳子长度的缩放值
+        hoverMsg:'你好~喵', //鼠标浮动到neko上方的对话框信息
+        right:'100px', //距离页面右边的距离
+        fontFamily:'楷体', //对话框字体
+        fontSize:'14px', //对话框字体的大小
+        color:'#1e90ff', //对话框字体颜色
+        scroWidth:'8px', //绳子的宽度
+        z_index:100, //不用解释了吧
+        during:1200, //从顶部到底部滑动的时长
+    });
+    */
+  })
 }
 
-createtime1();
-
-function createtime2() {
-  var ascll2 = [
-    `NCC2-036`,
-    `调用前置摄像头拍照成功，识别为「大聪明」`,
-    `Photo captured: `,
-    ` 🤪 `
-  ];
-
-  setTimeout(
-    console.log.bind(
-      console,
-      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,
-      "color:white; background-color:#10bcc0",
-      "",
-      "",
-      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
-    )
-  );
-
-  setTimeout(
-    console.log.bind(
-      console,
-      "%c WELCOME %c 欢迎光临，大聪明",
-      "color:white; background-color:#23c682",
-      ""
-    )
-  );
-
-  setTimeout(
-    console.warn.bind(
-      console,
-      "%c ⚡ Powered by BUBUBAN %c 你正在访问BUBUBANの小家",
-      "color:white; background-color:#f0ad4e",
-      ""
-    )
-  );
-
-  setTimeout(
-    console.log.bind(
-      console,
-      "%c W23-12 %c 系统监测到你已打开控制台",
-      "color:white; background-color:#4f90d9",
-      ""
-    )
-  );
-
-  setTimeout(
-    console.warn.bind(
-      console,
-      "%c S013-782 %c 你现在正处于监控中",
-      "color:white; background-color:#d9534f",
-      ""
-    )
-  );
-}
-createtime2();
-
-// 重写console方法（放在最后，确保之前的输出不受影响）
-console.log = function () {};
-console.error = function () {};
-console.warn = function () {};
-/* 控制台输出字符画 end */
-
+/* 小猫咪 end */
