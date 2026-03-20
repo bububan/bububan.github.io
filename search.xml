@@ -129,11 +129,61 @@
     
     
     <entry>
+      <title>bu6</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang2/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bu11</title>
       <link href="/2026/03/17/2026-3-18-wenzhang3/"/>
       <url>/2026/03/17/2026-3-18-wenzhang3/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第11篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu9</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
       
       
       <categories>
@@ -179,62 +229,12 @@
     
     
     <entry>
-      <title>bu6</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang2/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu8</title>
       <link href="/2026/03/17/2026-3-18-wenzhang5/"/>
       <url>/2026/03/17/2026-3-18-wenzhang5/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑧篇文章</p>]]></content>
       
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu9</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
       
       
         <tags>
@@ -276,22 +276,33 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>:root {  --trans-light: rgba(255, 255, 255, 0.671);  --trans-dark: rgba(25, 25, 25, 0.705);  --border-style: 1px solid rgb(169, 169, 169);  --backdrop-filter: none;}/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'YSHST';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/优设好身体.woff2);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 文章页H1-H6图标样式效果 */h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {    -webkit-animation: ccc 1.6s linear infinite ;    animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {    -webkit-animation: ccc 1.6s linear infinite ;    animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -38px;}/* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(--theme-color) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(--theme-color) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 背景宇宙星光  */#universe{  display: block;  position: fixed;  margin: 0;  padding: 0;  border: 0;  outline: 0;  left: 0;  top: 0;  width: 100%;  height: 100%;  pointer-events: none;  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */  z-index: -1;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #3eb8be;  border-radius: 8px;}/* 鼠标样式 */#cursor {  position: fixed;  width: 16px;  height: 16px;  /* 这里改变跟随的底色 */  background: rgb(64, 185, 177);  border-radius: 8px;  opacity: 0.25;  z-index: 10086;  pointer-events: none;  transition: 0.2s ease-in-out;  transition-property: background, opacity, transform;}#cursor.hidden {  opacity: 0;}#cursor.hover {  opacity: 0.1;  transform: scale(2.5);  -webkit-transform: scale(2.5);  -moz-transform: scale(2.5);  -ms-transform: scale(2.5);  -o-transform: scale(2.5);}#cursor.active {  opacity: 0.5;  transform: scale(0.5);  -webkit-transform: scale(0.5);  -moz-transform: scale(0.5);  -ms-transform: scale(0.5);  -o-transform: scale(0.5); }/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 25px;  border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 18px;  border: var(--border-style);}/* 文章页、归档页、普通页面 */div#post,div#page,div#archive {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border: var(--border-style);  border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {  background: rgba(255, 255, 255, 0.75);  backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {  background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {  background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {  background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {  background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}[data-theme="dark"] .read-mode div#post {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}/* heo 加载动画头像 */.loading-img {  background: url(https://ts4.tc.mm.bing.net/th/id/OIP-C._b9bMXovF8C88jhNT9ut3wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3)    no-repeat center center;  background-size: cover;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -310,21 +321,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>:root {  --trans-light: rgba(255, 255, 255, 0.671);  --trans-dark: rgba(25, 25, 25, 0.705);  --border-style: 1px solid rgb(169, 169, 169);  --backdrop-filter: none;}/* 页脚与头图透明 */#footer {  background: transparent !important;}#page-header {  background: transparent !important;}/* 白天模式遮罩透明 */#footer::before {  background: transparent !important;}#page-header::before {  background: transparent !important;}/* 夜间模式遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 小冰分类分类磁铁黑夜模式适配 *//* 一般状态 */[data-theme="dark"] .magnet_link_context {  background: #1e1e1e;  color: antiquewhite;}/* 鼠标悬浮状态 */[data-theme="dark"] .magnet_link_context:hover {  background: #3ecdf1;  color: #f2f2f2;}@font-face {  /* 为载入的字体取名字(随意) */  font-family: 'YSHST';  /* 字体文件地址(相对或者绝对路径都可以) */  src: url(/font/优设好身体.woff2);  /* 定义加粗样式(加粗多少) */  font-weight: normal;  /* 定义字体样式(斜体/非斜体) */  font-style: normal;  /* 定义显示样式 */  font-display: block;}/* 翻页按钮居中 */#pagination {  width: 100%;  margin: auto;}/* 文章页H1-H6图标样式效果 */h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {    -webkit-animation: ccc 1.6s linear infinite ;    animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {    -webkit-animation: ccc 1.6s linear infinite ;    animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}/* 一级菜单居中 */#nav .menus_items {  position: absolute !important;  width: fit-content !important;  left: 50% !important;  transform: translateX(-50%) !important;}/* 子菜单横向展示 */#nav .menus_items .menus_item:hover .menus_item_child {  display: flex !important;}/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */.menus_items .menus_item:nth-child(5) .menus_item_child {  left: -38px;}/* 夜间模式菜单栏发光字 */[data-theme="dark"] #nav .site-page,[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {  text-shadow: 0 0 2px var(--theme-color) !important;}/* 手机端适配 */[data-theme="dark"] #sidebar #sidebar-menus .menus_items .site-page {  text-shadow: 0 0 2px var(--theme-color) !important;}/* 闪烁变动颜色连续渐变 */#site-name,#site-title,#site-subtitle,#post-info,.author-info__name,.author-info__description {  transition: text-shadow 1s linear !important;}/* 背景宇宙星光  */#universe{  display: block;  position: fixed;  margin: 0;  padding: 0;  border: 0;  outline: 0;  left: 0;  top: 0;  width: 100%;  height: 100%;  pointer-events: none;  /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */  z-index: -1;}/* 侧边栏个人信息卡片动态渐变色 */#aside-content > .card-widget.card-info {  background: linear-gradient(    -45deg,    #e8d8b9,    #eccec5,    #a3e9eb,    #bdbdf0,    #eec1ea  );  box-shadow: 0 0 5px rgb(66, 68, 68);  position: relative;  background-size: 400% 400%;  -webkit-animation: Gradient 10s ease infinite;  -moz-animation: Gradient 10s ease infinite;  animation: Gradient 10s ease infinite !important;}@-webkit-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@-moz-keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}@keyframes Gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* 黑夜模式适配 */[data-theme="dark"] #aside-content > .card-widget.card-info {  background: #191919ee;}/* 个人信息Follow me按钮 */#aside-content > .card-widget.card-info > #card-info-btn {  background-color: #3eb8be;  border-radius: 8px;}/* 鼠标样式 */#cursor {  position: fixed;  width: 16px;  height: 16px;  /* 这里改变跟随的底色 */  background: rgb(64, 185, 177);  border-radius: 8px;  opacity: 0.25;  z-index: 10086;  pointer-events: none;  transition: 0.2s ease-in-out;  transition-property: background, opacity, transform;}#cursor.hidden {  opacity: 0;}#cursor.hover {  opacity: 0.1;  transform: scale(2.5);  -webkit-transform: scale(2.5);  -moz-transform: scale(2.5);  -ms-transform: scale(2.5);  -o-transform: scale(2.5);}#cursor.active {  opacity: 0.5;  transform: scale(0.5);  -webkit-transform: scale(0.5);  -moz-transform: scale(0.5);  -ms-transform: scale(0.5);  -o-transform: scale(0.5); }/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 25px;  border: var(--border-style);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border-radius: 18px;  border: var(--border-style);}/* 文章页、归档页、普通页面 */div#post,div#page,div#archive {  background: var(--trans-light);  backdrop-filter: var(--backdrop-filter);  border: var(--border-style);  border-radius: 20px;}/* 导航栏 */#page-header.nav-fixed #nav {  background: rgba(255, 255, 255, 0.75);  backdrop-filter: var(--backdrop-filter);}[data-theme="dark"] #page-header.nav-fixed #nav {  background: rgba(0, 0, 0, 0.7) !important;}/* 夜间模式遮罩 */[data-theme="dark"] #recent-posts > .recent-post-item,[data-theme="dark"] #aside-content .card-widget,[data-theme="dark"] div#post,[data-theme="dark"] div#archive,[data-theme="dark"] div#page {  background: var(--trans-dark);}/* 夜间模式页脚页头遮罩透明 */[data-theme="dark"] #footer::before {  background: transparent !important;}[data-theme="dark"] #page-header::before {  background: transparent !important;}/* 阅读模式 */.read-mode #aside-content .card-widget {  background: rgba(158, 204, 171, 0.5) !important;}.read-mode div#post {  background: rgba(158, 204, 171, 0.5) !important;}/* 夜间模式下的阅读模式 */[data-theme="dark"] .read-mode #aside-content .card-widget {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}[data-theme="dark"] .read-mode div#post {  background: rgba(25, 25, 25, 0.9) !important;  color: #ffffff;}/* heo 加载动画头像 */.loading-img {  background: url(https://ts4.tc.mm.bing.net/th/id/OIP-C._b9bMXovF8C88jhNT9ut3wHaHa?rs=1&pid=ImgDetMain&o=7&rm=3)    no-repeat center center;  background-size: cover;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/cursor.js"/>
       <url>/js/cursor.js</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();// 为了屏蔽异步加载导致无法读取颜色值，这里统一用哈希表预处理const map = new Map();map.set('red', "rgb(241, 71, 71)");map.set('orange', "rgb(241, 162, 71)");map.set('yellow', "rgb(241, 238, 71)")map.set('purple', "rgb(179, 71, 241)");map.set('blue', "rgb(102, 204, 255)");map.set('gray', "rgb(226, 226, 226)");map.set('green', "rgb(57, 197, 187)");map.set('whitegray', "rgb(241, 241, 241)");map.set('pink', "rgb(237, 112, 155)");map.set('black', "rgb(0, 0, 0)");map.set('darkblue', "rgb(97, 100, 159)");map.set('heoblue', "rgb(66, 90, 239)");class Cursor {  constructor() {    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  move(left, top) {    this.cursor.style["left"] = `${left}px`;    this.cursor.style["top"] = `${top}px`;  }  create() {    if (!this.cursor) {      this.cursor = document.createElement("div");      this.cursor.id = "cursor";      this.cursor.classList.add("hidden");      document.body.append(this.cursor);    }    var el = document.getElementsByTagName('*');    for (let i = 0; i < el.length; i++)      if (getStyle2(el[i], "cursor") == "pointer")        this.pt.push(el[i].outerHTML);    var colorVal = map.get(localStorage.getItem("themeColor"));    document.body.appendChild((this.scr = document.createElement("style")));    this.scr.innerHTML = `* {* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto}`;  }    refresh() {    this.scr.remove();    this.cursor.classList.remove("hover");    this.cursor.classList.remove("active");    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  init() {    document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");    document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");    document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };    document.onmouseenter = e => this.cursor.classList.remove("hidden");    document.onmouseleave = e => this.cursor.classList.add("hidden");    document.onmousedown = e => this.cursor.classList.add("active");    document.onmouseup = e => this.cursor.classList.remove("active");  }  render() {    if (this.pos.prev) {      // 跟踪速度调节      this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);      this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);      this.move(this.pos.prev.x, this.pos.prev.y);    } else {      this.pos.prev = this.pos.curr;    }    requestAnimationFrame(() => this.render());  }}(() => {  CURSOR = new Cursor();  // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();// 为了屏蔽异步加载导致无法读取颜色值，这里统一用哈希表预处理const map = new Map();map.set('red', "rgb(241, 71, 71)");map.set('orange', "rgb(241, 162, 71)");map.set('yellow', "rgb(241, 238, 71)")map.set('purple', "rgb(179, 71, 241)");map.set('blue', "rgb(102, 204, 255)");map.set('gray', "rgb(226, 226, 226)");map.set('green', "rgb(57, 197, 187)");map.set('whitegray', "rgb(241, 241, 241)");map.set('pink', "rgb(237, 112, 155)");map.set('black', "rgb(0, 0, 0)");map.set('darkblue', "rgb(97, 100, 159)");map.set('heoblue', "rgb(66, 90, 239)");class Cursor {  constructor() {    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  move(left, top) {    this.cursor.style["left"] = `${left}px`;    this.cursor.style["top"] = `${top}px`;  }  create() {    if (!this.cursor) {      this.cursor = document.createElement("div");      this.cursor.id = "cursor";      this.cursor.classList.add("hidden");      document.body.append(this.cursor);    }    var el = document.getElementsByTagName('*');    for (let i = 0; i < el.length; i++)      if (getStyle2(el[i], "cursor") == "pointer")        this.pt.push(el[i].outerHTML);    var colorVal = map.get(localStorage.getItem("themeColor"));    document.body.appendChild((this.scr = document.createElement("style")));    this.scr.innerHTML = `* {* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto}`;  }    refresh() {    this.scr.remove();    this.cursor.classList.remove("hover");    this.cursor.classList.remove("active");    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  init() {    document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");    document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");    document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };    document.onmouseenter = e => this.cursor.classList.remove("hidden");    document.onmouseleave = e => this.cursor.classList.add("hidden");    document.onmousedown = e => this.cursor.classList.add("active");    document.onmouseup = e => this.cursor.classList.remove("active");  }  render() {    if (this.pos.prev) {      // 跟踪速度调节      this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);      this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);      this.move(this.pos.prev.x, this.pos.prev.y);    } else {      this.pos.prev = this.pos.curr;    }    requestAnimationFrame(() => this.render());  }}(() => {  CURSOR = new Cursor();  // 需要重新获取列表时，使用 CURSOR.refresh()})();/* 恶搞标题 start *///动态标题var OriginTitile = document.title;var titleTime;document.addEventListener('visibilitychange', function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = '👀跑哪里去了~';    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = '🐖抓到你啦～';    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});/* 恶搞标题 end */]]></content>
       
     </entry>
     
@@ -343,6 +343,28 @@
     
     <entry>
       <title></title>
+      <link href="/js/fomal.js"/>
+      <url>/js/fomal.js</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 控制台输出字符画 start */var now1 = new Date();function createtime1() {  // 修正日期格式为更通用的 ISO 格式（避免浏览器兼容性问题）  var grt = new Date("2026-03-20T14:00:00"); // 原为 "20/3/2026 14:00:00"，部分环境可能解析失败  now1.setTime(now1.getTime() + 250); // 每次调用增加 250ms，模拟天数动态变化  var days = (now1 - grt) / 1000 / 60 / 60 / 24;  var dnum = Math.floor(days);  // 修正 ascll 数组，移除多余的逗号和换行  var ascll = [    `欢迎来到BUBUBANの小家!`,    `Future is now 🍭🍭🍭`,    "小站已经苟活",    dnum,    "天啦!",    "©2022 By BUBUBAN",    // 原代码中引用了 ascll[6]，但数组只有6项，这里补一个空字符串避免报错（可根据需要调整）    ""  ];  setTimeout(    console.log.bind(      console,      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}%c ${ascll[6]}\n`,      "color:#39c5bb",      "",      "color:#39c5bb",      "color:#39c5bb",      "",      "color:#39c5bb",      ""    )  );}createtime1();function createtime2() {  var ascll2 = [    `NCC2-036`,    `调用前置摄像头拍照成功，识别为「大聪明」`,    `Photo captured: `,    ` 🤪 `  ];  setTimeout(    console.log.bind(      console,      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,      "color:white; background-color:#10bcc0",      "",      "",      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'    )  );  setTimeout(    console.log.bind(      console,      "%c WELCOME %c 欢迎光临，大聪明",      "color:white; background-color:#23c682",      ""    )  );  setTimeout(    console.warn.bind(      console,      "%c ⚡ Powered by BUBUBAN %c 你正在访问BUBUBANの小家",      "color:white; background-color:#f0ad4e",      ""    )  );  setTimeout(    console.log.bind(      console,      "%c W23-12 %c 系统监测到你已打开控制台",      "color:white; background-color:#4f90d9",      ""    )  );  setTimeout(    console.warn.bind(      console,      "%c S013-782 %c 你现在正处于监控中",      "color:white; background-color:#d9534f",      ""    )  );}createtime2();// 重写console方法（放在最后，确保之前的输出不受影响）console.log = function () {};console.error = function () {};console.warn = function () {};/* 控制台输出字符画 end */]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
@@ -353,11 +375,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/js/fomal.js"/>
-      <url>/js/fomal.js</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* 控制台输出字符画 start */var now1 = new Date();function createtime1() {  // 修正日期格式为更通用的 ISO 格式（避免浏览器兼容性问题）  var grt = new Date("2026-03-20T14:00:00"); // 原为 "20/3/2026 14:00:00"，部分环境可能解析失败  now1.setTime(now1.getTime() + 250); // 每次调用增加 250ms，模拟天数动态变化  var days = (now1 - grt) / 1000 / 60 / 60 / 24;  var dnum = Math.floor(days);  // 修正 ascll 数组，移除多余的逗号和换行  var ascll = [    `欢迎来到BUBUBANの小家!`,    `Future is now 🍭🍭🍭`,    "小站已经苟活",    dnum,    "天啦!",    "©2022 By BUBUBAN",    // 原代码中引用了 ascll[6]，但数组只有6项，这里补一个空字符串避免报错（可根据需要调整）    ""  ];  setTimeout(    console.log.bind(      console,      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}%c ${ascll[6]}\n`,      "color:#39c5bb",      "",      "color:#39c5bb",      "color:#39c5bb",      "",      "color:#39c5bb",      ""    )  );}createtime1();function createtime2() {  var ascll2 = [    `NCC2-036`,    `调用前置摄像头拍照成功，识别为「大聪明」`,    `Photo captured: `,    ` 🤪 `  ];  setTimeout(    console.log.bind(      console,      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}`,      "color:white; background-color:#10bcc0",      "",      "",      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'    )  );  setTimeout(    console.log.bind(      console,      "%c WELCOME %c 欢迎光临，大聪明",      "color:white; background-color:#23c682",      ""    )  );  setTimeout(    console.warn.bind(      console,      "%c ⚡ Powered by BUBUBAN %c 你正在访问BUBUBANの小家",      "color:white; background-color:#f0ad4e",      ""    )  );  setTimeout(    console.log.bind(      console,      "%c W23-12 %c 系统监测到你已打开控制台",      "color:white; background-color:#4f90d9",      ""    )  );  setTimeout(    console.warn.bind(      console,      "%c S013-782 %c 你现在正处于监控中",      "color:white; background-color:#d9534f",      ""    )  );}createtime2();// 重写console方法（放在最后，确保之前的输出不受影响）console.log = function () {};console.error = function () {};console.warn = function () {};/* 控制台输出字符画 end *//* 夜间模式切换动画 start */function switchNightMode() {  // 1. 插入动画所需的 DOM 结构（包含太阳和月亮的元素）  document.querySelector('body').insertAdjacentHTML(    'beforeend',    '<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"><div id="sun"></div><div id="moon"></div></div></div>'  );  // 2. 第一个 setTimeout：立即执行（延迟为 0），用于切换主题类并更新图标  setTimeout(function() {    const body = document.querySelector('body');    const modeIcon = document.getElementById('modeicon');    // 根据当前是否存在 DarkMode 类来切换主题    if (body.classList.contains('DarkMode')) {      body.classList.remove('DarkMode');      localStorage.setItem('isDark', '0');      if (modeIcon) modeIcon.setAttribute('xlink:href', '#icon-moon');    } else {      body.classList.add('DarkMode');      localStorage.setItem('isDark', '1');      if (modeIcon) modeIcon.setAttribute('xlink:href', '#icon-sun');    }    // 3. 第二个 setTimeout：延迟 2 秒后开始淡出动画元素    setTimeout(function() {      const skyElements = document.getElementsByClassName('Cuteen_DarkSky');      if (skyElements.length > 0) {        const sky = skyElements[0];        sky.style.transition = 'opacity 3s';        sky.style.opacity = '0';        // 4. 第三个 setTimeout：延迟 1 秒后移除动画元素        setTimeout(function() {          if (sky.parentNode) {            sky.remove();          }        }, 1000);      }    }, 2000);  });  // 5. 根据 data-theme 属性控制太阳/月亮的透明度，并再次触发主题切换  const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';  if (nowMode === 'light') {    const sun = document.getElementById('sun');    const moon = document.getElementById('moon');    if (sun && moon) {      // 先显示太阳，隐藏月亮      sun.style.opacity = '1';      moon.style.opacity = '0';      // 1 秒后交换透明度，模拟动画      setTimeout(function() {        sun.style.opacity = '0';        moon.style.opacity = '1';      }, 1000);    }    // 调用外部定义的主题切换函数（需确保已定义）    if (typeof activateDarkMode === 'function') {      activateDarkMode();    }    // 保存主题设置（saveToLocal 需存在）    if (typeof saveToLocal !== 'undefined' && saveToLocal.set) {      saveToLocal.set('theme', 'dark', 2);    }    // 可选：显示 snackbar 提示（原注释代码保留）    // if (GLOBAL_CONFIG.Snackbar !== undefined && typeof btf !== 'undefined' && btf.snackbarShow) {    //   btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night);    // }    const modeIcon = document.getElementById('modeicon');    if (modeIcon) {      modeIcon.setAttribute('xlink:href', '#icon-sun');    }  }}/* 夜间模式切换动画 end *//* =========================================   日夜模式切换逻辑 (兼容 VS Code / 浏览器)   ========================================= */// 1. 环境检测与依赖模拟 (为了让代码在 VS Code 中不报错)const isBrowser = typeof window !== 'undefined' && typeof document !== 'undefined';// 模拟 saveToLocal (本地存储)const saveToLocal = {  set: (key, value, days) => {    if (isBrowser) {      localStorage.setItem(key, JSON.stringify({ value, expiry: Date.now() + days * 86400000 }));    } else {      console.log(`[Storage] Set ${key} = ${value} (expires in ${days} days)`);    }  },  get: (key) => {    if (isBrowser) {      const item = localStorage.getItem(key);      if (!item) return null;      const { value, expiry } = JSON.parse(item);      if (Date.now() > expiry) {        localStorage.removeItem(key);        return null;      }      return value;    } else {      console.log(`[Storage] Get ${key}`);      return null;    }  }};// 模拟 activateLightMode (切换逻辑占位符)function activateLightMode() {  if (isBrowser) {    // 这里放置真实的切换逻辑，比如修改 body 类名    console.log('[System] Activating light mode logic...');  } else {    console.log('[System] (VS Code) Simulating activateLightMode...');  }}// 模拟 Vue 通知 (如果在浏览器中没有加载 ElementUI/Notification)function showNotification(title, message, type = 'success') {  if (isBrowser) {    // 检查 Vue 和 $notify 是否存在    if (typeof Vue !== 'undefined' && document.getElementById('app')) {       // 正确用法：创建一个临时实例或使用全局方法       // 假设你已经在主程序中挂载了 Vue 原型，或者使用全局总线       // 这里为了通用性，直接使用原生 DOM 模拟一个简单的 toast，或者调用已有的 notify              // 如果你的主题已经引入了 ElementUI 的 Notification，通常可以直接这样调用 (需确保 Vue 实例已挂载)       // 但为了安全，我们推荐直接用原生方式或确认 Vue 环境              console.log(`[Browser Notify] ${title}: ${message}`);              // 尝试调用真实的通知 (如果你的环境支持)       try {         // 注意：原代码的 new Vue({ data: ... }) 写法是错误的，无法触发 notify         // 正确的做法通常是调用全局方法，例如：window.app.$notify(...)         // 这里为了演示，我们假设有一个全局的 notify 函数         if (window.app && window.app.$notify) {            window.app.$notify({ title, message, position: 'top-left', offset: 50, showClose: true, type, duration: 5000 });         } else {            // 降级方案：创建一个临时的 div 提示            const div = document.createElement('div');            div.style.cssText = `position:fixed;top:50px;left:50px;padding:15px;background:#fff;border:1px solid #ddd;box-shadow:0 2px 10px rgba(0,0,0,0.1);z-index:9999;border-radius:4px;color:#333;`;            div.innerHTML = `<strong>${title}</strong><br>${message}`;            document.body.appendChild(div);            setTimeout(() => div.remove(), 5000);         }       } catch (e) {         console.error('Notify failed:', e);       }    } else {      console.log(`[Browser Notify] (Vue not ready) ${title}: ${message}`);    }  } else {    // VS Code 终端输出    const icon = type === 'success' ? '✅' : '⚠️';    console.log(`${icon} [Notification] ${title}\n   📝 ${message}\n`);  }}/** * 切换模式主函数 * @param {boolean} isDark - true 表示切换到夜间，false 表示切换到白天 */function toggleTheme(isDark) {  console.log(`\n🔄 正在切换模式：${isDark ? '🌙 夜间模式' : '🌞 白天模式'}...`);  if (isBrowser) {    const sun = document.getElementById('sun');    const moon = document.getElementById('moon');    const body = document.querySelector('body');    const modeIcon = document.getElementById('modeicon');    // 安全检查：如果元素不存在，不要报错    if (sun && moon) {      if (isDark) {        // 切换到夜间        sun.style.opacity = '0';        moon.style.opacity = '1';        setTimeout(() => {          sun.style.opacity = '1'; // 这里的逻辑原代码有点奇怪，通常是切换后保持状态          // 原代码逻辑：先隐藏太阳，显示月亮 -> 1秒后太阳变回1，月亮变0？这会导致闪烁后变回白天          // 我推测原意可能是动画结束后的状态重置，或者是原代码写反了。          // 这里保留原代码逻辑，但建议检查你的 CSS 动画          moon.style.opacity = '0';         }, 1000);                // 添加 DarkMode 类        if(body) body.classList.add('DarkMode');        if(modeIcon) modeIcon.setAttribute('xlink:href', '#icon-moon');                saveToLocal.set('theme', 'dark', 2);        setTimeout(() => {          showNotification('关灯啦🌙', '当前已成功切换至夜间模式！', 'success');        }, 2000);      } else {        // 切换到白天 (对应原代码的 else 分支)        sun.style.opacity = '0';        moon.style.opacity = '1';        setTimeout(() => {          sun.style.opacity = '1';          moon.style.opacity = '0';        }, 1000);        activateLightMode();        saveToLocal.set('theme', 'light', 2);                if(body) body.classList.remove('DarkMode'); // 通常白天模式是移除 DarkMode 类        if(modeIcon) modeIcon.setAttribute('xlink:href', '#icon-sun');        setTimeout(() => {          showNotification('开灯啦🌞', '当前已成功切换至白天模式！', 'success');        }, 2000);      }    } else {      console.warn('[DOM Warning] Sun or Moon element not found!');      // 即使没有图标，也执行逻辑和通知      saveToLocal.set('theme', isDark ? 'dark' : 'light', 2);      setTimeout(() => {        showNotification(isDark ? '关灯啦🌙' : '开灯啦🌞', isDark ? '夜间模式已激活' : '白天模式已激活', 'success');      }, 1000);    }  } else {    // VS Code 环境模拟    saveToLocal.set('theme', isDark ? 'dark' : 'light', 2);    setTimeout(() => {      showNotification(        isDark ? '关灯啦🌙' : '开灯啦🌞',         isDark ? '当前已成功切换至夜间模式！' : '当前已成功切换至白天模式！',         'success'      );    }, 1000);  }}// ==========================================// 测试运行 (在 VS Code 中直接运行此文件即可看到效果)// ==========================================// 模拟切换为夜间模式toggleTheme(true);// 2 秒后模拟切换为白天模式 (可选，用于测试完整流程)setTimeout(() => {  toggleTheme(false);}, 4000);]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -386,33 +408,11 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/box/animation/index.html"/>
       <url>/box/animation/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>titledatecomments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
