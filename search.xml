@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>bu1</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第二篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu2</title>
       <link href="/2026/03/17/2026-3-18-wen/"/>
       <url>/2026/03/17/2026-3-18-wen/</url>
@@ -64,31 +39,6 @@
       <categories>
           
           <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu3</title>
-      <link href="/2026/03/17/2026-3-18-wen2/"/>
-      <url>/2026/03/17/2026-3-18-wen2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -测试 </category>
           
       </categories>
       
@@ -154,11 +104,36 @@
     
     
     <entry>
-      <title>bu7</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang4/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang4/</url>
+      <title>bu3</title>
+      <link href="/2026/03/17/2026-3-18-wen2/"/>
+      <url>/2026/03/17/2026-3-18-wen2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑦篇文章</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu1</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第二篇文章</p>]]></content>
       
       
       <categories>
@@ -204,12 +179,18 @@
     
     
     <entry>
-      <title>bu8</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang5/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang5/</url>
+      <title>bu7</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang4/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang4/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑧篇文章</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑦篇文章</p>]]></content>
       
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
       
       
         <tags>
@@ -235,6 +216,25 @@
           <category> -博客测试 </category>
           
       </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu8</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang5/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑧篇文章</p>]]></content>
+      
       
       
         <tags>
@@ -276,6 +276,17 @@
     
     
     <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* ========================================   统一全站背景：复用顶部横幅图作为全站背景   ======================================== */body {  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;  background-size: cover !important;  background-position: center !important;  background-attachment: fixed !important;  background-repeat: no-repeat !important;}#page-header.home-index {  background: transparent !important;  box-shadow: none !important;}#page-header.home-index::before {  content: '';  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.5);  z-index: 1;}#page-header.home-index .site-title,#page-header.home-index #nav,#page-header.home-index .subtitle {  position: relative;  z-index: 2;}.recent-posts .card-content {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 6px 16px rgba(0,0,0,0.12);  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover {  transform: translateY(-5px);  box-shadow: 0 10px 24px rgba(0,0,0,0.18);}aside .card-widget {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);}#post-comment {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  padding: 20px;}#web_bg {  position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.3);  z-index: -1;  pointer-events: none;}.recent-posts .card-content,aside .card-widget {  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover,aside .card-widget:hover {  transform: translateY(-5px);  box-shadow: 0 8px 20px rgba(0,0,0,0.15);}/* 美化文章卡片封面图 */.recent-posts .cover-div {  border-radius: 10px 10px 0 0;  overflow: hidden;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);  transition: transform 0.3s ease;}.recent-posts .cover-div:hover {  transform: scale(1.03);}.recent-posts .cover-div img {  width: 100%;  height: 200px;  object-fit: cover;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -310,17 +321,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* ========================================   统一全站背景：复用顶部横幅图作为全站背景   ======================================== */body {  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;  background-size: cover !important;  background-position: center !important;  background-attachment: fixed !important;  background-repeat: no-repeat !important;}#page-header.home-index {  background: transparent !important;  box-shadow: none !important;}#page-header.home-index::before {  content: '';  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.5);  z-index: 1;}#page-header.home-index .site-title,#page-header.home-index #nav,#page-header.home-index .subtitle {  position: relative;  z-index: 2;}.recent-posts .card-content {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 6px 16px rgba(0,0,0,0.12);  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover {  transform: translateY(-5px);  box-shadow: 0 10px 24px rgba(0,0,0,0.18);}aside .card-widget {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);}#post-comment {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  padding: 20px;}#web_bg {  position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.3);  z-index: -1;  pointer-events: none;}.recent-posts .card-content,aside .card-widget {  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover,aside .card-widget:hover {  transform: translateY(-5px);  box-shadow: 0 8px 20px rgba(0,0,0,0.15);}/* 美化文章卡片封面图 */.recent-posts .cover-div {  border-radius: 10px 10px 0 0;  overflow: hidden;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);  transition: transform 0.3s ease;}.recent-posts .cover-div:hover {  transform: scale(1.03);}.recent-posts .cover-div img {  width: 100%;  height: 200px;  object-fit: cover;}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/cursor.js"/>
       <url>/js/cursor.js</url>
       
@@ -342,17 +342,6 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
@@ -364,9 +353,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
@@ -389,6 +378,17 @@
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
