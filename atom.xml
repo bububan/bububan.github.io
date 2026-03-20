@@ -6,7 +6,7 @@
   <link href="http://www.ububan.com/atom.xml" rel="self"/>
   
   <link href="http://www.ububan.com/"/>
-  <updated>2026-03-18T07:56:53.036Z</updated>
+  <updated>2026-03-20T00:53:14.190Z</updated>
   <id>http://www.ububan.com/</id>
   
   <author>
@@ -15,54 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>bu3</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wen2/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wen2/</id>
-    <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-18T07:56:53.036Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="-测试" scheme="http://www.ububan.com/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-    <category term="-示例 -博客" scheme="http://www.ububan.com/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bu2</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wen/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wen/</id>
-    <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-18T08:22:08.831Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第三篇文章</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="-博客测试" scheme="http://www.ububan.com/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
-    
-    
-    <category term="-示例 -博客" scheme="http://www.ububan.com/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
   
   <entry>
     <title>test</title>
@@ -113,13 +65,37 @@
   </entry>
   
   <entry>
-    <title>bu6</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang2/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang2/</id>
+    <title>bu2</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wen/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wen/</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-18T08:01:53.368Z</updated>
+    <updated>2026-03-18T08:22:08.831Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第三篇文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="-博客测试" scheme="http://www.ububan.com/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="-示例 -博客" scheme="http://www.ububan.com/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bu3</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wen2/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wen2/</id>
+    <published>2026-03-17T13:24:45.000Z</published>
+    <updated>2026-03-18T07:56:53.036Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
     
     
       
@@ -161,13 +137,37 @@
   </entry>
   
   <entry>
-    <title>bu11</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang3/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang3/</id>
+    <title>bu6</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang2/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang2/</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-20T01:07:28.731Z</updated>
+    <updated>2026-03-18T08:01:53.368Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第11篇文章</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;&#92;assets&#92;css&#92;APlayer.min.css&quot;&gt;&lt;script src=&quot;&#92;assets&#92;js&#92;APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="-测试" scheme="http://www.ububan.com/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="-示例 -博客" scheme="http://www.ububan.com/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bu7</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang4/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang4/</id>
+    <published>2026-03-17T13:24:45.000Z</published>
+    <updated>2026-03-20T01:53:30.814Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑦篇文章</p>]]></content>
     
     
       
@@ -185,13 +185,13 @@
   </entry>
   
   <entry>
-    <title>bu7</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang4/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang4/</id>
+    <title>bu11</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang3/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang3/</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-20T01:12:27.481Z</updated>
+    <updated>2026-03-20T01:07:28.731Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑦篇文章</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第11篇文章</p>]]></content>
     
     
       
@@ -231,13 +231,13 @@
   </entry>
   
   <entry>
-    <title>bu10</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang7/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang7/</id>
+    <title>bu9</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang6/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang6/</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-20T01:12:53.953Z</updated>
+    <updated>2026-03-20T01:02:43.903Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第10篇文章</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
     
     
       
@@ -255,13 +255,13 @@
   </entry>
   
   <entry>
-    <title>bu9</title>
-    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang6/"/>
-    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang6/</id>
+    <title>bu10</title>
+    <link href="http://www.ububan.com/2026/03/17/2026-3-18-wenzhang7/"/>
+    <id>http://www.ububan.com/2026/03/17/2026-3-18-wenzhang7/</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-20T01:02:43.903Z</updated>
+    <updated>2026-03-20T01:52:50.328Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第10篇文章</p>]]></content>
     
     
       
