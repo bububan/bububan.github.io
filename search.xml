@@ -8,7 +8,7 @@
       <link href="/2026/03/17/test/"/>
       <url>/2026/03/17/test/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><div class="note default simple"><p>内容+++</p></div><div class="timeline blue"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>时间轴样式</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div>        </div>        <div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-05-15 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.6">2.6.3 -&gt; 2.6.6</a></p></div>        </div>        <div class='timeline-item-content'><p>不需要额外处理。</p></div>      </div></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第一篇文章</p><div class="note default simple"><p>内容+++</p></div><div class="timeline blue"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>时间轴样式</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div>        </div>        <div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-05-15 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.6">2.6.3 -&gt; 2.6.6</a></p></div>        </div>        <div class='timeline-item-content'><p>不需要额外处理。</p></div>      </div></div>]]></content>
       
       
       <categories>
@@ -29,36 +29,11 @@
     
     
     <entry>
-      <title>bu3</title>
-      <link href="/2026/03/17/2026-3-18-wen2/"/>
-      <url>/2026/03/17/2026-3-18-wen2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> -测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu2</title>
       <link href="/2026/03/17/2026-3-18-wen/"/>
       <url>/2026/03/17/2026-3-18-wen/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第三篇文章"><a href="#这是我的第三篇文章" class="headerlink" title="这是我的第三篇文章"></a>这是我的第三篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第三篇文章</p>]]></content>
       
       
       <categories>
@@ -79,11 +54,11 @@
     
     
     <entry>
-      <title>bu5</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang1/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang1/</url>
+      <title>bu3</title>
+      <link href="/2026/03/17/2026-3-18-wen2/"/>
+      <url>/2026/03/17/2026-3-18-wen2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第五篇文章"><a href="#这是我的第五篇文章" class="headerlink" title="这是我的第五篇文章"></a>这是我的第五篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
       
       
       <categories>
@@ -108,7 +83,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang/"/>
       <url>/2026/03/17/2026-3-18-wenzhang/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第二篇文章</p>]]></content>
       
       
       <categories>
@@ -129,11 +104,36 @@
     
     
     <entry>
+      <title>bu5</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang1/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第五篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bu6</title>
       <link href="/2026/03/17/2026-3-18-wenzhang2/"/>
       <url>/2026/03/17/2026-3-18-wenzhang2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第六篇文章"><a href="#这是我的第六篇文章" class="headerlink" title="这是我的第六篇文章"></a>这是我的第六篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
       
       
       <categories>
@@ -158,7 +158,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang3/"/>
       <url>/2026/03/17/2026-3-18-wenzhang3/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第11篇文章"><a href="#这是我的第11篇文章" class="headerlink" title="这是我的第11篇文章"></a>这是我的第11篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第11篇文章</p>]]></content>
       
       
       <categories>
@@ -183,32 +183,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang4/"/>
       <url>/2026/03/17/2026-3-18-wenzhang4/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第⑦篇文章"><a href="#这是我的第⑦篇文章" class="headerlink" title="这是我的第⑦篇文章"></a>这是我的第⑦篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu9</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第⑨篇文章"><a href="#这是我的第⑨篇文章" class="headerlink" title="这是我的第⑨篇文章"></a>这是我的第⑨篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑦篇文章</p>]]></content>
       
       
       <categories>
@@ -233,8 +208,33 @@
       <link href="/2026/03/17/2026-3-18-wenzhang5/"/>
       <url>/2026/03/17/2026-3-18-wenzhang5/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第⑧篇文章"><a href="#这是我的第⑧篇文章" class="headerlink" title="这是我的第⑧篇文章"></a>这是我的第⑧篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑧篇文章</p>]]></content>
       
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu9</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
       
       
         <tags>
@@ -252,7 +252,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang7/"/>
       <url>/2026/03/17/2026-3-18-wenzhang7/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第10篇文章"><a href="#这是我的第10篇文章" class="headerlink" title="这是我的第10篇文章"></a>这是我的第10篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第10篇文章</p>]]></content>
       
       
       <categories>
@@ -320,17 +320,6 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/js/cursor.js"/>
       <url>/js/cursor.js</url>
@@ -358,6 +347,17 @@
       <url>/js/universe.js</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>function dark() {window.requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame;var n,e,i,h,t=.05,s=document.getElementById("universe"),o=!0,a="180,184,240",r="226,225,142",d="226,225,224",c=[];function f(){n=window.innerWidth,e=window.innerHeight,i=.216*n,s.setAttribute("width",n),s.setAttribute("height",e)}function u(){h.clearRect(0,0,n,e);for(var t=c.length,i=0;i<t;i++){var s=c[i];s.move(),s.fadeIn(),s.fadeOut(),s.draw()}}function y(){this.reset=function(){this.giant=m(3),this.comet=!this.giant&&!o&&m(10),this.x=l(0,n-10),this.y=l(0,e),this.r=l(1.1,2.6),this.dx=l(t,6*t)+(this.comet+1-1)*t*l(50,120)+2*t,this.dy=-l(t,6*t)-(this.comet+1-1)*t*l(50,120),this.fadingOut=null,this.fadingIn=!0,this.opacity=0,this.opacityTresh=l(.2,1-.4*(this.comet+1-1)),this.do=l(5e-4,.002)+.001*(this.comet+1-1)},this.fadeIn=function(){this.fadingIn&&(this.fadingIn=!(this.opacity>this.opacityTresh),this.opacity+=this.do)},this.fadeOut=function(){this.fadingOut&&(this.fadingOut=!(this.opacity<0),this.opacity-=this.do/2,(this.x>n||this.y<0)&&(this.fadingOut=!1,this.reset()))},this.draw=function(){if(h.beginPath(),this.giant)h.fillStyle="rgba("+a+","+this.opacity+")",h.arc(this.x,this.y,2,0,2*Math.PI,!1);else if(this.comet){h.fillStyle="rgba("+d+","+this.opacity+")",h.arc(this.x,this.y,1.5,0,2*Math.PI,!1);for(var t=0;t<30;t++)h.fillStyle="rgba("+d+","+(this.opacity-this.opacity/20*t)+")",h.rect(this.x-this.dx/4*t,this.y-this.dy/4*t-2,2,2),h.fill()}else h.fillStyle="rgba("+r+","+this.opacity+")",h.rect(this.x,this.y,this.r,this.r);h.closePath(),h.fill()},this.move=function(){this.x+=this.dx,this.y+=this.dy,!1===this.fadingOut&&this.reset(),(this.x>n-n/4||this.y<0)&&(this.fadingOut=!0)},setTimeout(function(){o=!1},50)}function m(t){return Math.floor(1e3*Math.random())+1<10*t}function l(t,i){return Math.random()*(i-t)+t}f(),window.addEventListener("resize",f,!1),function(){h=s.getContext("2d");for(var t=0;t<i;t++)c[t]=new y,c[t].reset();u()}(),function t(){document.getElementsByTagName('html')[0].getAttribute('data-theme')=='dark'&&u(),window.requestAnimationFrame(t)}()};dark()]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
     </entry>
     
@@ -401,7 +401,7 @@
       <link href="/box/animation/index.html"/>
       <url>/box/animation/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>title    date    comments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>titledatecomments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
       
     </entry>
     
