@@ -8,7 +8,7 @@
       <link href="/2026/03/17/test/"/>
       <url>/2026/03/17/test/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第一篇文章"><a href="#这是我的第一篇文章" class="headerlink" title="这是我的第一篇文章"></a>这是我的第一篇文章</h2><div class="note default simple"><p>内容+++</p></div><div class="timeline blue"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>时间轴样式</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div>        </div>        <div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-05-15 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.6">2.6.3 -&gt; 2.6.6</a></p></div>        </div>        <div class='timeline-item-content'><p>不需要额外处理。</p></div>      </div></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第一篇文章</p><div class="note default simple"><p>内容+++</p></div><div class="timeline blue"><div class='timeline-item headline'>        <div class='timeline-item-title'>          <div class='item-circle'><p>时间轴样式</p></div>        </div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-07-24 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases">2.6.6 -&gt; 3.0</a></p></div>        </div>        <div class='timeline-item-content'><ol><li>如果有 <code>hexo-lazyload-image</code> 插件，需要删除并重新安装最新版本，设置 <code>lazyload.isSPA: true</code>。</li><li>2.x 版本的 css 和 js 不适用于 3.x 版本，如果使用了 <code>use_cdn: true</code> 则需要删除。</li><li>2.x 版本的 fancybox 标签在 3.x 版本中被重命名为 gallery 。</li><li>2.x 版本的置顶 <code>top: true</code> 改为了 <code>pin: true</code>，并且同样适用于 <code>layout: page</code> 的页面。</li><li>如果使用了 <code>hexo-offline</code> 插件，建议卸载，3.0 版本默认开启了 pjax 服务。</li></ol></div>      </div><div class='timeline-item'>        <div class='timeline-item-title'>          <div class='item-circle'><p>2020-05-15 <a href="https://github.com/volantis-x/hexo-theme-volantis/releases/tag/2.6.6">2.6.3 -&gt; 2.6.6</a></p></div>        </div>        <div class='timeline-item-content'><p>不需要额外处理。</p></div>      </div></div>]]></content>
       
       
       <categories>
@@ -33,7 +33,7 @@
       <link href="/2026/03/17/2026-3-18-wen/"/>
       <url>/2026/03/17/2026-3-18-wen/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第三篇文章"><a href="#这是我的第三篇文章" class="headerlink" title="这是我的第三篇文章"></a>这是我的第三篇文章</h2><div class="note info flat"><p>这是一条提示信息</p></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第三篇文章</p><div class="note info flat"><p>这是一条提示信息</p></div>]]></content>
       
       
       <categories>
@@ -58,7 +58,7 @@
       <link href="/2026/03/17/2026-3-18-wen2/"/>
       <url>/2026/03/17/2026-3-18-wen2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第四篇文章</p>]]></content>
       
       
       <categories>
@@ -83,7 +83,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang/"/>
       <url>/2026/03/17/2026-3-18-wenzhang/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第二篇文章</p>]]></content>
       
       
       <categories>
@@ -108,7 +108,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang1/"/>
       <url>/2026/03/17/2026-3-18-wenzhang1/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第五篇文章"><a href="#这是我的第五篇文章" class="headerlink" title="这是我的第五篇文章"></a>这是我的第五篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第五篇文章</p>]]></content>
       
       
       <categories>
@@ -133,7 +133,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang2/"/>
       <url>/2026/03/17/2026-3-18-wenzhang2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第六篇文章"><a href="#这是我的第六篇文章" class="headerlink" title="这是我的第六篇文章"></a>这是我的第六篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第六篇文章</p>]]></content>
       
       
       <categories>
@@ -158,7 +158,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang3/"/>
       <url>/2026/03/17/2026-3-18-wenzhang3/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第11篇文章"><a href="#这是我的第11篇文章" class="headerlink" title="这是我的第11篇文章"></a>这是我的第11篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第11篇文章</p>]]></content>
       
       
       <categories>
@@ -183,32 +183,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang4/"/>
       <url>/2026/03/17/2026-3-18-wenzhang4/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第⑦篇文章"><a href="#这是我的第⑦篇文章" class="headerlink" title="这是我的第⑦篇文章"></a>这是我的第⑦篇文章</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu9</title>
-      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
-      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第⑨篇文章"><a href="#这是我的第⑨篇文章" class="headerlink" title="这是我的第⑨篇文章"></a>这是我的第⑨篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑦篇文章</p>]]></content>
       
       
       <categories>
@@ -233,8 +208,33 @@
       <link href="/2026/03/17/2026-3-18-wenzhang5/"/>
       <url>/2026/03/17/2026-3-18-wenzhang5/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第⑧篇文章"><a href="#这是我的第⑧篇文章" class="headerlink" title="这是我的第⑧篇文章"></a>这是我的第⑧篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑧篇文章</p>]]></content>
       
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu9</title>
+      <link href="/2026/03/17/2026-3-18-wenzhang6/"/>
+      <url>/2026/03/17/2026-3-18-wenzhang6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第⑨篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
       
       
         <tags>
@@ -252,7 +252,7 @@
       <link href="/2026/03/17/2026-3-18-wenzhang7/"/>
       <url>/2026/03/17/2026-3-18-wenzhang7/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="这是我的第10篇文章"><a href="#这是我的第10篇文章" class="headerlink" title="这是我的第10篇文章"></a>这是我的第10篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>##这是我的第10篇文章</p>]]></content>
       
       
       <categories>
@@ -276,17 +276,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>categories</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -298,11 +287,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* ========================================   统一全站背景：复用顶部横幅图作为全站背景   ======================================== */body {  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;  background-size: cover !important;  background-position: center !important;  background-attachment: fixed !important;  background-repeat: no-repeat !important;}#page-header.home-index {  background: transparent !important;  box-shadow: none !important;}#page-header.home-index::before {  content: '';  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.5);  z-index: 1;}#page-header.home-index .site-title,#page-header.home-index #nav,#page-header.home-index .subtitle {  position: relative;  z-index: 2;}.recent-posts .card-content {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 6px 16px rgba(0,0,0,0.12);  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover {  transform: translateY(-5px);  box-shadow: 0 10px 24px rgba(0,0,0,0.18);}aside .card-widget {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);}#post-comment {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  padding: 20px;}#web_bg {  position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.3);  z-index: -1;  pointer-events: none;}.recent-posts .card-content,aside .card-widget {  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover,aside .card-widget:hover {  transform: translateY(-5px);  box-shadow: 0 8px 20px rgba(0,0,0,0.15);}/* 美化文章卡片封面图 */.recent-posts .cover-div {  border-radius: 10px 10px 0 0;  overflow: hidden;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);  transition: transform 0.3s ease;}.recent-posts .cover-div:hover {  transform: scale(1.03);}.recent-posts .cover-div img {  width: 100%;  height: 200px;  object-fit: cover;}]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
       
     </entry>
     
@@ -321,21 +310,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/light.js"/>
-      <url>/js/light.js</url>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/* ========================================   统一全站背景：复用顶部横幅图作为全站背景   ======================================== */body {  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;  background-size: cover !important;  background-position: center !important;  background-attachment: fixed !important;  background-repeat: no-repeat !important;}#page-header.home-index {  background: transparent !important;  box-shadow: none !important;}#page-header.home-index::before {  content: '';  position: absolute;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.5);  z-index: 1;}#page-header.home-index .site-title,#page-header.home-index #nav,#page-header.home-index .subtitle {  position: relative;  z-index: 2;}.recent-posts .card-content {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 6px 16px rgba(0,0,0,0.12);  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover {  transform: translateY(-5px);  box-shadow: 0 10px 24px rgba(0,0,0,0.18);}aside .card-widget {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);}#post-comment {  background-color: rgba(255,255,255,0.92) !important;  backdrop-filter: blur(8px);  border-radius: 10px;  padding: 20px;}#web_bg {  position: fixed;  top: 0;  left: 0;  width: 100%;  height: 100%;  background-color: rgba(0,0,0,0.3);  z-index: -1;  pointer-events: none;}.recent-posts .card-content,aside .card-widget {  transition: transform 0.3s ease, box-shadow 0.3s ease;}.recent-posts .card-content:hover,aside .card-widget:hover {  transform: translateY(-5px);  box-shadow: 0 8px 20px rgba(0,0,0,0.15);}/* 美化文章卡片封面图 */.recent-posts .cover-div {  border-radius: 10px 10px 0 0;  overflow: hidden;  box-shadow: 0 4px 12px rgba(0,0,0,0.1);  transition: transform 0.3s ease;}.recent-posts .cover-div:hover {  transform: scale(1.03);}.recent-posts .cover-div img {  width: 100%;  height: 200px;  object-fit: cover;}]]></content>
       
     </entry>
     
@@ -347,6 +325,17 @@
       <url>/js/cursor.js</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>var CURSOR;Math.lerp = (a, b, n) => (1 - n) * a + n * b;const getStyle = (el, attr) => {    try {        return window.getComputedStyle            ? window.getComputedStyle(el)[attr]            : el.currentStyle[attr];    } catch (e) {}    return "";};class Cursor {    constructor() {        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    move(left, top) {        this.cursor.style["left"] = `${left}px`;        this.cursor.style["top"] = `${top}px`;    }    create() {        if (!this.cursor) {            this.cursor = document.createElement("div");            this.cursor.id = "cursor";            this.cursor.classList.add("hidden");            document.body.append(this.cursor);        }        var el = document.getElementsByTagName('*');        for (let i = 0; i < el.length; i++)            if (getStyle(el[i], "cursor") == "pointer")                this.pt.push(el[i].outerHTML);        document.body.appendChild((this.scr = document.createElement("style")));        // 这里改变鼠标指针的颜色 由svg生成        this.scr.innerHTML = `* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='.5'/></svg>") 4 4, auto}`;    }    refresh() {        this.scr.remove();        this.cursor.classList.remove("hover");        this.cursor.classList.remove("active");        this.pos = {curr: null, prev: null};        this.pt = [];        this.create();        this.init();        this.render();    }    init() {        document.onmouseover  = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");        document.onmouseout   = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");        document.onmousemove  = e => {(this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = {x: e.clientX - 8, y: e.clientY - 8}; this.cursor.classList.remove("hidden");};        document.onmouseenter = e => this.cursor.classList.remove("hidden");        document.onmouseleave = e => this.cursor.classList.add("hidden");        document.onmousedown  = e => this.cursor.classList.add("active");        document.onmouseup    = e => this.cursor.classList.remove("active");    }    render() {        if (this.pos.prev) {            this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);            this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);            this.move(this.pos.prev.x, this.pos.prev.y);        } else {            this.pos.prev = this.pos.curr;        }        requestAnimationFrame(() => this.render());    }}(() => {    CURSOR = new Cursor();    // 需要重新获取列表时，使用 CURSOR.refresh()})();// 为了屏蔽异步加载导致无法读取颜色值，这里统一用哈希表预处理const map = new Map();map.set('red', "rgb(241, 71, 71)");map.set('orange', "rgb(241, 162, 71)");map.set('yellow', "rgb(241, 238, 71)")map.set('purple', "rgb(179, 71, 241)");map.set('blue', "rgb(102, 204, 255)");map.set('gray', "rgb(226, 226, 226)");map.set('green', "rgb(57, 197, 187)");map.set('whitegray', "rgb(241, 241, 241)");map.set('pink', "rgb(237, 112, 155)");map.set('black', "rgb(0, 0, 0)");map.set('darkblue', "rgb(97, 100, 159)");map.set('heoblue', "rgb(66, 90, 239)");class Cursor {  constructor() {    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  move(left, top) {    this.cursor.style["left"] = `${left}px`;    this.cursor.style["top"] = `${top}px`;  }  create() {    if (!this.cursor) {      this.cursor = document.createElement("div");      this.cursor.id = "cursor";      this.cursor.classList.add("hidden");      document.body.append(this.cursor);    }    var el = document.getElementsByTagName('*');    for (let i = 0; i < el.length; i++)      if (getStyle2(el[i], "cursor") == "pointer")        this.pt.push(el[i].outerHTML);    var colorVal = map.get(localStorage.getItem("themeColor"));    document.body.appendChild((this.scr = document.createElement("style")));    this.scr.innerHTML = `* {* {cursor: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' width='8px' height='8px'><circle cx='4' cy='4' r='4' opacity='1.0' fill='rgb(57, 197, 187)'/></svg>") 4 4, auto}`;  }    refresh() {    this.scr.remove();    this.cursor.classList.remove("hover");    this.cursor.classList.remove("active");    this.pos = { curr: null, prev: null };    this.pt = [];    this.create();    this.init();    this.render();  }  init() {    document.onmouseover = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.add("hover");    document.onmouseout = e => this.pt.includes(e.target.outerHTML) && this.cursor.classList.remove("hover");    document.onmousemove = e => { (this.pos.curr == null) && this.move(e.clientX - 8, e.clientY - 8); this.pos.curr = { x: e.clientX - 8, y: e.clientY - 8 }; this.cursor.classList.remove("hidden"); };    document.onmouseenter = e => this.cursor.classList.remove("hidden");    document.onmouseleave = e => this.cursor.classList.add("hidden");    document.onmousedown = e => this.cursor.classList.add("active");    document.onmouseup = e => this.cursor.classList.remove("active");  }  render() {    if (this.pos.prev) {      // 跟踪速度调节      this.pos.prev.x = Math.lerp(this.pos.prev.x, this.pos.curr.x, 0.15);      this.pos.prev.y = Math.lerp(this.pos.prev.y, this.pos.curr.y, 0.15);      this.move(this.pos.prev.x, this.pos.prev.y);    } else {      this.pos.prev = this.pos.curr;    }    requestAnimationFrame(() => this.render());  }}(() => {  CURSOR = new Cursor();  // 需要重新获取列表时，使用 CURSOR.refresh()})();]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/light.js"/>
+      <url>/js/light.js</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>// 霓虹灯效果// 颜色数组var arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"];// 颜色索引var idx = 0;// 切换颜色function changeColor() {    // 仅夜间模式才启用    if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px";            document.getElementsByClassName("author-info__description")[0].style.textShadow = arr[idx] + " 0 0 12px";        } catch {                    }        idx++;        if (idx == 8) {            idx = 0;        }    } else {        // 白天模式恢复默认        if (document.getElementById("site-name"))            document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-title"))            document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("site-subtitle"))            document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px";        if (document.getElementById("post-info"))            document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px";        try {            document.getElementsByClassName("author-info__name")[0].style.textShadow = "";            document.getElementsByClassName("author-info__description")[0].style.textShadow = "";        } catch {                    }    }}// 开启计时器window.onload = setInterval(changeColor, 1200);]]></content>
       
     </entry>
     
@@ -367,6 +356,17 @@
       <title>友链</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
@@ -401,7 +401,7 @@
       <link href="/box/animation/index.html"/>
       <url>/box/animation/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>title    date    comments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>titledatecomments<br>动画<br>2022-08-28 09:00:00 -0700<br>false</p>]]></content>
       
     </entry>
     
