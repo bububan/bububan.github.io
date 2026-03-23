@@ -10,7 +10,7 @@
   <id>http://www.ububan.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>bububan</name>
     
   </author>
   
@@ -96,43 +96,18 @@
   </entry>
   
   <entry>
-    <title>bu6</title>
+    <title>bu1</title>
     <link href="http://www.ububan.github.io/posts/63534.html"/>
     <id>http://www.ububan.github.io/posts/63534.html</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-18T08:01:53.368Z</updated>
+    <updated>2026-03-20T00:58:51.652Z</updated>
     
-    <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;##这是我的第六篇文章&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="-测试" scheme="http://www.ububan.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bu11</title>
-    <link href="http://www.ububan.github.io/posts/63534.html"/>
-    <id>http://www.ububan.github.io/posts/63534.html</id>
-    <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-20T01:07:28.731Z</updated>
-    
-    <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
+    <content type="html"><![CDATA[<p>##这是我的第二篇文章</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;##这是我的第11篇文章&lt;/p&gt;
+    <summary type="html">&lt;p&gt;##这是我的第二篇文章&lt;/p&gt;
 </summary>
       
     
@@ -171,18 +146,43 @@
   </entry>
   
   <entry>
-    <title>bu1</title>
+    <title>bu6</title>
     <link href="http://www.ububan.github.io/posts/63534.html"/>
     <id>http://www.ububan.github.io/posts/63534.html</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-20T00:58:51.652Z</updated>
+    <updated>2026-03-18T08:01:53.368Z</updated>
     
-    <content type="html"><![CDATA[<p>##这是我的第二篇文章</p>]]></content>
+    <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;##这是我的第二篇文章&lt;/p&gt;
+    <summary type="html">&lt;p&gt;##这是我的第六篇文章&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="-测试" scheme="http://www.ububan.github.io/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bu11</title>
+    <link href="http://www.ububan.github.io/posts/63534.html"/>
+    <id>http://www.ububan.github.io/posts/63534.html</id>
+    <published>2026-03-17T13:24:45.000Z</published>
+    <updated>2026-03-20T01:07:28.731Z</updated>
+    
+    <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##这是我的第11篇文章&lt;/p&gt;
 </summary>
       
     
