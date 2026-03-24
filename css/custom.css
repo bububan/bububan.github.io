@@ -290,16 +290,33 @@ div#archive {
   background: var(--trans-dark);
 }
 
+/* 顶部导航栏和首页头图透明，清晰显示背景 */
 #page-header {
-  background: rgba(255, 255, 255, 0.5) !important;
-  backdrop-filter: blur(10px);
+  background: transparent !important; /* 背景透明 */
+}
+
+#page-header.nav-fixed #nav {
+  background: transparent !important; /* 导航栏透明 */
+  backdrop-filter: none !important;   /* 不加模糊 */
+}
+
+/* 去掉 ::before 遮罩，让背景完全清晰 */
+#page-header::before {
+  background: transparent !important;
 }
 
 [data-theme="dark"] #page-header {
-  background: rgba(0, 0, 0, 0.6) !important;
-  backdrop-filter: blur(10px);
+  background: transparent !important; 
 }
 
+[data-theme="dark"] #page-header.nav-fixed #nav {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
 
 /* 阅读模式 */
 .read-mode #aside-content .card-widget {
