@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>bu3</title>
-      <link href="/posts/12344.html"/>
-      <url>/posts/12344.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第四篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu1</title>
       <link href="/posts/12334.html"/>
       <url>/posts/12334.html</url>
@@ -104,11 +79,11 @@
     
     
     <entry>
-      <title>bu6</title>
-      <link href="/posts/23245.html"/>
-      <url>/posts/23245.html</url>
+      <title>bu3</title>
+      <link href="/posts/12344.html"/>
+      <url>/posts/12344.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第四篇文章</p>]]></content>
       
       
       <categories>
@@ -154,6 +129,31 @@
     
     
     <entry>
+      <title>bu6</title>
+      <link href="/posts/23245.html"/>
+      <url>/posts/23245.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bu11</title>
       <link href="/posts/23246.html"/>
       <url>/posts/23246.html</url>
@@ -166,6 +166,25 @@
           <category> -博客测试 </category>
           
       </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu8</title>
+      <link href="/posts/33243.html"/>
+      <url>/posts/33243.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
+      
       
       
         <tags>
@@ -216,25 +235,6 @@
           <category> -博客测试 </category>
           
       </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu8</title>
-      <link href="/posts/33243.html"/>
-      <url>/posts/33243.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
-      
       
       
         <tags>
