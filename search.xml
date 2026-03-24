@@ -79,6 +79,31 @@
     
     
     <entry>
+      <title>bu6</title>
+      <link href="/posts/63534.html"/>
+      <url>/posts/63534.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bu1</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
@@ -129,11 +154,11 @@
     
     
     <entry>
-      <title>bu7</title>
+      <title>bu11</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第⑦篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
       
       
       <categories>
@@ -154,16 +179,16 @@
     
     
     <entry>
-      <title>bu6</title>
+      <title>bu7</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第⑦篇文章</p>]]></content>
       
       
       <categories>
           
-          <category> -测试 </category>
+          <category> -博客测试 </category>
           
       </categories>
       
@@ -198,11 +223,11 @@
     
     
     <entry>
-      <title>bu11</title>
+      <title>bu10</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
       
       
       <categories>
@@ -228,31 +253,6 @@
       <url>/posts/63534.html</url>
       
         <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu10</title>
-      <link href="/posts/63534.html"/>
-      <url>/posts/63534.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
       
       
       <categories>
