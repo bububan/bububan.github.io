@@ -136,10 +136,10 @@
   pageType: 'page'
 }</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="//at.alicdn.com/t/c/font_5143789_q5ob2rnsjrg.css"><link rel="stylesheet" href="https://unpkg.com/element-ui@2.15.6/lib/theme-chalk/index.css"><link rel="stylesheet" href="/assets/css/APlayer.min.css"><link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
 <style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
   white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
-<link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><link rel="stylesheet" href="/css/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="bububan" type="application/atom+xml">
+<link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><link rel="stylesheet" href="/css/runtime.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='screen'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="bububan" type="application/atom+xml">
 </head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
   const $loadingBox = document.getElementById('loading-box')
   const $body = document.body
@@ -241,29 +241,31 @@
         : window.location.href = e.request.responseURL
     }
   })
-})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script src="/js/github-dev-panel.js"></script><script>document.addEventListener("DOMContentLoaded", function () {
-  GitHubCalendar("#github-calendar", "bububan");
-});
-</script><script>function loadLanguageChart(){
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- 加载依赖--><script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script src="/js/github-dev-panel.js"></script><!-- 贡献图和语言图表--><script>document.addEventListener("DOMContentLoaded", function () {
+  // 判断当前页面是否是 关于页
+  if (typeof page !== 'undefined' && page.path === 'about/index.html') {
+    // GitHub 贡献图
+    GitHubCalendar("#github-calendar", "bububan");
 
-  const ctx=document.getElementById("languageChart")
-
-  if(!ctx) return
-
-  new Chart(ctx,{
-    type:"doughnut",
-    data:{
-      labels:["JavaScript","HTML","CSS"],
-      datasets:[{
-        data:[10,6,4]
-      }]
+    // 语言统计图
+    function loadLanguageChart(){
+      const ctx = document.getElementById("languageChart");
+      if(!ctx) return;
+      new Chart(ctx, {
+        type: "doughnut",
+        data: {
+          labels: ["JavaScript","HTML","CSS"],
+          datasets: [{
+            data: [10,6,4]
+          }]
+        }
+      });
     }
-  })
 
-}
-
-document.addEventListener("DOMContentLoaded",loadLanguageChart)
-document.addEventListener("pjax:complete",loadLanguageChart)
+    loadLanguageChart();
+    document.addEventListener("pjax:complete", loadLanguageChart);
+  }
+});
 </script><!-- hexo injector body_end start --><script data-pjax>
     function butterfly_categories_card_injector_config(){
       var parent_div_git = document.getElementById('recent-posts');
@@ -355,7 +357,7 @@ document.addEventListener("pjax:complete",loadLanguageChart)
   else if (epage === cpage){
     butterfly_swiper_injector_config();
   }
-  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
 for(var i = 0;i<arr.length;i++){
     arr[i].classList.add('wow');
     arr[i].classList.add('animate__bounceInLeft');
@@ -371,4 +373,4 @@ for(var i = 0;i<arr.length;i++){
     arr[i].setAttribute('data-wow-delay', '');
     arr[i].setAttribute('data-wow-offset', '');
     arr[i].setAttribute('data-wow-iteration', '');
-  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body></html>
+  }</script></div><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body></html>
