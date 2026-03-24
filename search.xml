@@ -29,16 +29,16 @@
     
     
     <entry>
-      <title>bu2</title>
+      <title>bu3</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第三篇文章</p><div class="note info flat"><p>这是一条提示信息</p></div>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第四篇文章</p>]]></content>
       
       
       <categories>
           
-          <category> -博客测试 </category>
+          <category> -测试 </category>
           
       </categories>
       
@@ -54,16 +54,16 @@
     
     
     <entry>
-      <title>bu3</title>
+      <title>bu2</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第四篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第三篇文章</p><div class="note info flat"><p>这是一条提示信息</p></div>]]></content>
       
       
       <categories>
           
-          <category> -测试 </category>
+          <category> -博客测试 </category>
           
       </categories>
       
@@ -129,6 +129,31 @@
     
     
     <entry>
+      <title>bu7</title>
+      <link href="/posts/63534.html"/>
+      <url>/posts/63534.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第⑦篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>bu6</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
@@ -141,6 +166,25 @@
           <category> -测试 </category>
           
       </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu8</title>
+      <link href="/posts/63534.html"/>
+      <url>/posts/63534.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
+      
       
       
         <tags>
@@ -179,11 +223,11 @@
     
     
     <entry>
-      <title>bu7</title>
+      <title>bu9</title>
       <link href="/posts/63534.html"/>
       <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第⑦篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
       
       
       <categories>
@@ -191,25 +235,6 @@
           <category> -博客测试 </category>
           
       </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu8</title>
-      <link href="/posts/63534.html"/>
-      <url>/posts/63534.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
-      
       
       
         <tags>
@@ -228,31 +253,6 @@
       <url>/posts/63534.html</url>
       
         <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu9</title>
-      <link href="/posts/63534.html"/>
-      <url>/posts/63534.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
       
       
       <categories>
