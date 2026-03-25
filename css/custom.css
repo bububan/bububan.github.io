@@ -126,3 +126,29 @@ div#post, div#page, div#archive {
   background: rgba(255,255,255,0.2) !important;
   backdrop-filter: blur(10px);
 }
+
+.my-btns{
+  position: fixed;
+  right: 20px;
+  bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-item{
+  width: 40px;
+  height: 40px;
+  background: #49b1f5;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.btn-item:hover{
+  background: #ff7a45;
+}
