@@ -156,7 +156,8 @@ div#post, div#page, div#archive {
 .welcome-card{
   background: rgba(0,0,0,0.05);
   border-radius: 12px;
-  padding: 15px;
+  padding: 12px;
   margin-top: 10px;
   font-size: 14px;
+  line-height: 1.8;
 }
