@@ -29,16 +29,16 @@
     
     
     <entry>
-      <title>bu2</title>
-      <link href="/posts/63534.html"/>
-      <url>/posts/63534.html</url>
+      <title>bu3</title>
+      <link href="/posts/12344.html"/>
+      <url>/posts/12344.html</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第三篇文章"><a href="#这是我的第三篇文章" class="headerlink" title="这是我的第三篇文章"></a>这是我的第三篇文章</h2><div class="note info flat"><p>这是一条提示信息</p></div>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2>]]></content>
       
       
       <categories>
           
-          <category> -博客测试 </category>
+          <category> -测试 </category>
           
       </categories>
       
@@ -54,16 +54,16 @@
     
     
     <entry>
-      <title>bu3</title>
-      <link href="/posts/12344.html"/>
-      <url>/posts/12344.html</url>
+      <title>bu2</title>
+      <link href="/posts/63534.html"/>
+      <url>/posts/63534.html</url>
       
-        <content type="html"><![CDATA[<h2 id="这是我的第四篇文章"><a href="#这是我的第四篇文章" class="headerlink" title="这是我的第四篇文章"></a>这是我的第四篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是我的第三篇文章"><a href="#这是我的第三篇文章" class="headerlink" title="这是我的第三篇文章"></a>这是我的第三篇文章</h2><div class="note info flat"><p>这是一条提示信息</p></div>]]></content>
       
       
       <categories>
           
-          <category> -测试 </category>
+          <category> -博客测试 </category>
           
       </categories>
       
