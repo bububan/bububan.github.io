@@ -18,34 +18,34 @@ fetch('https://ipapi.co/json/')
     const dLon = (lon2 - lon1) * Math.PI / 180
 
     const a =
-      Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-      Math.cos(lat1 * Math.PI / 180) *
-      Math.cos(lat2 * Math.PI / 180) *
-      Math.sin(dLon / 2) *
-      Math.sin(dLon / 2)
+      Math.sin(dLat/2) * Math.sin(dLat/2) +
+      Math.cos(lat1 * Math.PI/180) *
+      Math.cos(lat2 * Math.PI/180) *
+      Math.sin(dLon/2) *
+      Math.sin(dLon/2)
 
-    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a))
 
     return Math.round(R * c)
   }
 
   const distance = getDistance(lat, lon, blogLat, blogLon)
 
-  const welcome = document.getElementById("welcome-info")
-
   const hour = new Date().getHours()
 
   let greeting = ""
 
-  if (hour < 11) greeting = "早上好"
-  else if (hour < 13) greeting = "中午好"
-  else if (hour < 18) greeting = "下午好"
+  if(hour < 11) greeting = "早上好"
+  else if(hour < 13) greeting = "中午好"
+  else if(hour < 18) greeting = "下午好"
   else greeting = "晚上好"
+
+  const welcome = document.getElementById("welcome-info")
 
   welcome.innerHTML = `
   🎉 欢迎信息 🎉<br>
   欢迎来自 <b>${region} ${city}</b> 的伙伴，${greeting}<br>
   距离站长 <b>${distance}</b> 公里<br>
-  当前IP地址为：<b>${ip}</b>
+  IP：<b>${ip}</b>
   `
 })
