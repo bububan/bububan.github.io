@@ -126,12 +126,15 @@ div#post, div#page, div#archive {
   50% { background-position:100% 50%; }
   100% { background-position:0% 50%; }
 }
+/* 底部半透明 */
 #footer {
-  background: #ffffff !important;
+  background: rgba(255,255,255,0.6) !important;
   backdrop-filter: none !important;
 }
-[data-theme="dark"] #footer{
-  background:#1e1e1e !important;
+
+/* 夜间模式 */
+[data-theme="dark"] #footer {
+  background: rgba(0,0,0,0.6) !important;
 }
 
 #live2d-tools span {
@@ -158,3 +161,18 @@ div#post, div#page, div#archive {
   line-height: 1.8;
 }
 
+/* 顶部导航栏半透明 */
+#page-header.nav-fixed #nav {
+  background: rgba(255,255,255,0.6) !important;
+}
+
+/* 首页顶部导航 */
+#page-header #nav {
+  background: rgba(255,255,255,0.6) !important;
+}
+
+/* 夜间模式 */
+[data-theme="dark"] #page-header.nav-fixed #nav,
+[data-theme="dark"] #page-header #nav {
+  background: rgba(0,0,0,0.6) !important;
+}
