@@ -1,4 +1,3 @@
-http://www.ububan.github.io/archives/index.html
 http://www.ububan.github.io/categories/index.html
 http://www.ububan.github.io/tags/index.html
 http://www.ububan.github.io/music/index.html
