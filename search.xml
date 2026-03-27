@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>bu1</title>
-      <link href="/posts/12334.html"/>
-      <url>/posts/12334.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第二篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu3</title>
       <link href="/posts/12344.html"/>
       <url>/posts/12344.html</url>
@@ -114,6 +89,31 @@
       <categories>
           
           <category> -测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu1</title>
+      <link href="/posts/12334.html"/>
+      <url>/posts/12334.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第二篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
           
       </categories>
       
@@ -223,11 +223,11 @@
     
     
     <entry>
-      <title>bu9</title>
-      <link href="/posts/33452.html"/>
-      <url>/posts/33452.html</url>
+      <title>bu10</title>
+      <link href="/posts/43215.html"/>
+      <url>/posts/43215.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
       
       
       <categories>
@@ -248,11 +248,11 @@
     
     
     <entry>
-      <title>bu10</title>
-      <link href="/posts/43215.html"/>
-      <url>/posts/43215.html</url>
+      <title>bu9</title>
+      <link href="/posts/33452.html"/>
+      <url>/posts/33452.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
       
       
       <categories>
