@@ -1,203 +1,87 @@
-:root {
-  --trans-light: rgba(255, 255, 255, 0.5);
-  --trans-dark: rgba(25, 25, 25, 0.7);
-  --border-style: 1px solid rgb(169, 169, 169);
-  --backdrop-filter: none;
+/* ========================================
+   统一全站背景：复用顶部横幅图作为全站背景
+   ======================================== */
+body {
+  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
 }
-
-/* 保留首页背景图 */
-#page-header{
-  backdrop-filter:none !important;
+#page-header.home-index {
+  background: transparent !important;
+  box-shadow: none !important;
 }
-
-/* 导航栏背景 */
-#nav{
-  background:rgba(255,255,255,0.9) !important;
-}
-
-/* 夜间模式 */
-[data-theme="dark"] #nav{
-  background:rgba(0,0,0,0.7) !important;
-}
-
-/* 小冰分类黑夜模式适配 */
-[data-theme="dark"] .magnet_link_context {
-  background: #1e1e1e;
-  color: antiquewhite;
-}
-[data-theme="dark"] .magnet_link_context:hover {
-  background: #3ecdf1;
-  color: #f2f2f2;
-}
-
-/* H1-H6旋转图标动画 */
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
-  animation: ccc 1.6s linear infinite;
-}
-@keyframes ccc {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(-360deg); }
-}
-
-/* 一级菜单居中，子菜单横向 */
-#nav .menus_items {
-  display: flex !important;
-  justify-content: center !important;
-  width: 100%;
-}
-#nav .menus_items .menus_item:hover .menus_item_child { display: flex !important; }
-[data-theme="dark"] #nav .site-page,
-[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li a {
-  text-shadow: 0 0 2px var(--theme-color) !important;
-}
-
-/* 侧边栏头像卡片 */
-/* 头像卡片渐变背景 */
-#aside-content > .card-widget.card-info::before {
+#page-header.home-index::before {
+  content: '';
   position: absolute;
-  border: 0;
-  background-image: url("/img/OIP-C.webp");
-  background-size: cover;
-  background-position: center;
-  animation: Gradient 10s ease infinite !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
 }
-#aside-content > .card-widget.card-info img.avatar {
-  width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px;
+#page-header.home-index .site-title,
+#page-header.home-index #nav,
+#page-header.home-index .subtitle {
+  position: relative;
+  z-index: 2;
 }
-#aside-content > .card-widget.card-info .name { font-weight: bold; margin-bottom: 5px; }
-#aside-content > .card-widget.card-info .description { font-size:0.85rem; color:#444; margin-bottom:10px; }
-#aside-content > .card-widget.card-info .stats { display:flex; justify-content:space-around; font-size:0.8rem; margin-bottom:10px; }
-#aside-content > .card-widget.card-info #card-info-btn {
-  display:inline-block; background-color:#3eb8be; color:white; padding:6px 12px; border-radius:12px; text-decoration:none; font-size:0.85rem;
+.recent-posts .card-content {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* 公告栏 */
-#aside-content .card-widget.card-announcement {
-  background: linear-gradient(-45deg,#e0f7fa,#b2ebf2,#80deea);
-  background-size: 400% 400%;
-  animation: Gradient 10s ease infinite;
-  border-radius: 15px;
-  box-shadow: 0 0 5px rgba(66,68,68,0.3);
-  padding: 10px;
-  font-size:0.85rem;
+.recent-posts .card-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
-
-/* 首页文章卡片 */
-#recent-posts > .recent-post-item,
-#aside-content .card-widget,
-div#post, div#page, div#archive {
-  background: #ffffff;
-  border-radius: 20px;
-  border: var(--border-style);
+aside .card-widget {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
-/* 夜间模式透明渐变 */
-[data-theme="dark"] #recent-posts > .recent-post-item,
-[data-theme="dark"] #aside-content .card-widget,
-[data-theme="dark"] div#post,
-[data-theme="dark"] div#archive {
-  background: #2b2b2b;
+#post-comment {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
 }
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-  background: linear-gradient(-45deg,#222,#333,#444,#555);
-  background-size: 400% 400%;
-  animation: Gradient 10s ease infinite;
+#web_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: -1;
+  pointer-events: none;
 }
-[data-theme="dark"] #aside-content .card-widget.card-announcement {
-  background: linear-gradient(-45deg,#222,#333,#444,#555);
+.recent-posts .card-content,
+aside .card-widget {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* 阅读模式 */
-.read-mode #aside-content .card-widget,
-.read-mode div#post {
-  background: rgba(158,204,171,0.5) !important;
+.recent-posts .card-content:hover,
+aside .card-widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-[data-theme="dark"] .read-mode #aside-content .card-widget,
-[data-theme="dark"] .read-mode div#post {
-  background: rgba(25,25,25,0.9) !important;
-  color:#ffffff;
+/* 美化文章卡片封面图 */
+.recent-posts .cover-div {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
-
-@keyframes Gradient {
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
-  100%{background-position:0% 50%}
+.recent-posts .cover-div:hover {
+  transform: scale(1.03);
 }
-
-#footer {
-  background: none !important;
-}
-
-/* 夜间模式 */
-[data-theme="dark"] #footer {
-  background: rgba(0,0,0,0.6) !important;
-}
-
-#live2d-tools span {
-  width: 30px;
-  height: 30px;
-  margin: 4px 0;
-  border-radius: 6px;
-  background: rgba(0,0,0,0.5);
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#live2d-tools span:hover {
-  background: #8d42ca;
-  transform: scale(1.1);
-}
-
-.welcome-card{
-  background: rgba(0,0,0,0.05);
-  border-radius: 12px;
-  padding: 12px;
-  margin-top: 10px;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-/* 顶部导航栏半透明 */
-#page-header.nav-fixed #nav {
-  background: rgba(255,255,255,0.6) !important;
-}
-
-/* 首页顶部导航 */
-#page-header #nav {
-  background: rgba(255,255,255,0.6) !important;
-}
-
-/* 夜间模式 */
-[data-theme="dark"] #page-header.nav-fixed #nav,
-[data-theme="dark"] #page-header #nav {
-  background: rgba(0,0,0,0.6) !important;
-}
-
-/* Butterfly 倒计时卡片 */
-
-.butterfly-countdown {
-  text-align: center;
-  padding: 10px 0;
-}
-
-.cd-title {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.cd-time {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.cd-num {
-  color: #49b1f5;
-  font-size: 26px;
-  margin: 0 2px;
-}
-
-/* 夜间模式 */
-
-[data-theme="dark"] .cd-num {
-  color: #00c4ff;
+.recent-posts .cover-div img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }

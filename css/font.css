@@ -1,12 +1,17 @@
 /* 自定义字体 */
 @font-face {
   font-family: "MaoKenWangXingYuan";
-  font-display: swap;
   src: url("/ttf/MaoKenWangXingYuan-2.ttf") format("truetype");
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
 }
 
-body {
-  font-family: "MaoKenWangXingYuan", sans-serif;
+/* 全站字体 */
+body,
+#page-header,
+#nav,
+#aside-content,
+#recent-posts {
+  font-family: "MaoKenWangXingYuan", sans-serif !important;
 }
