@@ -1,100 +1,87 @@
-:root{
- --border-style:1px solid rgb(169,169,169);
+/* ========================================
+   统一全站背景：复用顶部横幅图作为全站背景
+   ======================================== */
+body {
+  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
 }
-
-/* 导航栏 */
-#nav{
- background:rgba(255,255,255,0.9)!important;
+#page-header.home-index {
+  background: transparent !important;
+  box-shadow: none !important;
 }
-
-[data-theme="dark"] #nav{
- background:rgba(0,0,0,0.7)!important;
+#page-header.home-index::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
 }
-
-/* 标题旋转图标 */
-h1::before,h2::before,h3::before,h4::before,h5::before,h6::before{
- animation:ccc 1.6s linear infinite;
+#page-header.home-index .site-title,
+#page-header.home-index #nav,
+#page-header.home-index .subtitle {
+  position: relative;
+  z-index: 2;
 }
-
-@keyframes ccc{
- 0%{transform:rotate(0)}
- 100%{transform:rotate(-360deg)}
+.recent-posts .card-content {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* 菜单居中 */
-#nav .menus_items{
- display:flex!important;
- justify-content:center!important;
- width:100%;
+.recent-posts .card-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
-
-/* 作者卡片背景 */
-#aside-content .card-widget.card-author{
- background-image:url("/img/OIP-C.webp");
- background-size:cover;
- background-position:center;
- position:relative;
+aside .card-widget {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
-/* 作者卡片遮罩 */
-#aside-content .card-author::before{
- content:"";
- position:absolute;
- inset:0;
- background:rgba(0,0,0,0.25);
- border-radius:12px;
+#post-comment {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
 }
-
-#aside-content .card-author *{
- position:relative;
- z-index:1;
+#web_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: -1;
+  pointer-events: none;
 }
-
-/* 头像渐变 */
-#aside-content .card-info-avatar img{
- padding:4px;
- border-radius:50%;
- background:linear-gradient(45deg,#00c6ff,#0072ff,#ff6ec4);
+.recent-posts .card-content,
+aside .card-widget {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* 首页卡片 */
-#recent-posts>.recent-post-item,
-#aside-content .card-widget,
-div#post,
-div#archive{
- background:#fff;
- border-radius:20px;
- border:var(--border-style);
+.recent-posts .card-content:hover,
+aside .card-widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-
-/* 夜间模式 */
-[data-theme="dark"] #recent-posts>.recent-post-item,
-[data-theme="dark"] #aside-content .card-widget{
- background:#2b2b2b;
+/* 美化文章卡片封面图 */
+.recent-posts .cover-div {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
-
-/* 公告卡片 */
-#aside-content .card-announcement{
- background:#a8d3d9;
- border-radius:12px;
+.recent-posts .cover-div:hover {
+  transform: scale(1.03);
 }
-
-/* footer透明 */
-#footer{
- background:transparent!important;
-}
-
-/* live2d按钮 */
-#live2d-tools span{
- width:30px;
- height:30px;
- margin:4px 0;
- border-radius:6px;
- background:rgba(0,0,0,.5);
- transition:.3s;
-}
-
-#live2d-tools span:hover{
- background:#8d42ca;
- transform:scale(1.1);
+.recent-posts .cover-div img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
