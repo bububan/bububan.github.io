@@ -53,14 +53,14 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 
 /* 侧边栏头像卡片 */
 /* 头像卡片渐变背景 */
-/* 侧边栏头像卡片 */
-#aside-content > .card-widget.card-info::before {
-  position: absolute;
-  border: 0;
-  background-image: url("/img/OIP-C.webp");
-  background-size: cover;
-  background-position: center;
+#aside-content .card-widget.card-info {
+  background: linear-gradient(-45deg,#e8d8b9,#eccec5,#a3e9eb,#bdbdf0,#eec1ea) !important;
+  background-size: 400% 400% !important;
   animation: Gradient 10s ease infinite !important;
+  border-radius: 18px;
+  box-shadow: 0 0 5px rgba(66,68,68,0.5);
+  padding: 15px;
+  text-align: center;
 }
 #aside-content > .card-widget.card-info img.avatar {
   width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px;
