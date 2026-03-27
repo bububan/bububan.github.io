@@ -1,17 +1,12 @@
 /* 自定义字体 */
 @font-face {
-  font-family: "黄凯桦律师手写体";
-  src: url("/ttf/黄凯桦律师手写体.ttf") format("truetype");
+  font-family: "MaoKenWangXingYuan";
   font-display: swap;
+  src: url("/ttf/MaoKenWangXingYuan-2.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-/* 全站字体 */
-body,
-#page-header,
-#nav,
-#aside-content,
-#recent-posts {
-  font-family: "黄凯桦律师手写体", sans-serif !important;
+body {
+  font-family: "MaoKenWangXingYuan", sans-serif;
 }
