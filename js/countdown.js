@@ -196,7 +196,7 @@ const CountdownTimer = (() => {
 })();
 
 const config = {
-  targetDate: "2027-01-6", // 目标日期
+  targetDate: "2027-01-06", // 目标日期
   targetName: "春节",       // 节日名称
   showDays: true,           // 是否显示天
   showHours: true,          // 是否显示小时
