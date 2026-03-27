@@ -1,7 +1,7 @@
 /* 自定义字体 */
 @font-face {
   font-family: "黄凯桦律师手写体";
-  src: url("/ttf/MaoKenWangXingYuan-2.ttf") format("truetype");
+  src: url("/ttf/黄凯桦律师手写体.ttf") format("truetype");
   font-display: swap;
   font-weight: normal;
   font-style: normal;
