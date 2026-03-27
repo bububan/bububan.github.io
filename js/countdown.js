@@ -1,6 +1,6 @@
 const CountdownTimer = (() => {
     const config = {
-        targetDate: "2025-01-29",
+        targetDate: "2027-01-06",
         targetName: "春节",
         units: {
             day: { text: "今日", unit: "小时" },
