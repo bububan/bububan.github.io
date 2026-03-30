@@ -1,222 +1,87 @@
-:root{
- --border-style:1px solid rgb(169,169,169);
+/* ========================================
+   统一全站背景：复用顶部横幅图作为全站背景
+   ======================================== */
+body {
+  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
 }
-
-/* ======================
-导航栏
-====================== */
-
-#nav{
- background:rgba(255,255,255,0.9)!important;
+#page-header.home-index {
+  background: transparent !important;
+  box-shadow: none !important;
 }
-
-[data-theme="dark"] #nav{
- background:rgba(0,0,0,0.7)!important;
+#page-header.home-index::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
 }
-
-#nav .menus_items{
- display:flex!important;
- justify-content:center!important;
- width:100%;
+#page-header.home-index .site-title,
+#page-header.home-index #nav,
+#page-header.home-index .subtitle {
+  position: relative;
+  z-index: 2;
 }
-
-/* ======================
-标题旋转图标
-====================== */
-
-#article-container h1::before,
-#article-container h2::before,
-#article-container h3::before,
-#article-container h4::before,
-#article-container h5::before,
-#article-container h6::before{
- animation:ccc 1.6s linear infinite;
+.recent-posts .card-content {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-@keyframes ccc{
- 0%{transform:rotate(0)}
- 100%{transform:rotate(-360deg)}
+.recent-posts .card-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
-
-/* ======================
-作者卡片背景
-====================== */
-
-#aside-content .card-info{
- position:relative;
- overflow:hidden;
- border-radius:18px;
- background-image:url("https://54325432.s3.bitiful.net/122979688_p0.webp");
- background-size:cover;
- background-position:center;
+aside .card-widget {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
-#aside-content .card-info::after{
- content:"";
- position:absolute;
- inset:0;
- backdrop-filter:blur(6px);
- background:rgba(255,255,255,0.25);
+#post-comment {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
 }
-
-#aside-content .card-info::before{
- content:"";
- position:absolute;
- inset:0;
- background:rgba(0,0,0,.35);
+#web_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: -1;
+  pointer-events: none;
 }
-
-#aside-content .card-info *{
- position:relative;
- z-index:1;
+.recent-posts .card-content,
+aside .card-widget {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* 头像 */
-
-#aside-content .card-widget.card-info .avatar-img img{
- border-radius:50%;
- border:3px solid rgba(255,255,255,0.7);
- box-shadow:0 4px 10px rgba(0,0,0,.3);
+.recent-posts .card-content:hover,
+aside .card-widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-
-/* ======================
-首页文章卡片
-====================== */
-
-#recent-posts{
- display:grid;
- grid-template-columns:repeat(auto-fill,minmax(420px,1fr));
- gap:25px;
- max-width:1400px;
- margin:auto;
+/* 美化文章卡片封面图 */
+.recent-posts .cover-div {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
-
-#recent-posts .recent-post-item{
- width:100%;
- border-radius:20px;
- overflow:hidden;
- box-shadow:0 10px 25px rgba(0,0,0,0.15);
- transition:.3s;
+.recent-posts .cover-div:hover {
+  transform: scale(1.03);
 }
-
-#recent-posts .recent-post-item:hover{
- transform:translateY(-6px);
- box-shadow:0 12px 30px rgba(0,0,0,.18);
-}
-
-#recent-posts .post_cover img{
- height:220px;
- object-fit:cover;
-}
-
-#recent-posts .post-title{
- font-size:22px;
- font-weight:700;
-}
-
-/* ======================
-文章页
-====================== */
-
-div#post,
-div#archive{
- background:#fff;
- border-radius:20px;
- border:var(--border-style);
-}
-
-/* ======================
-夜间模式
-====================== */
-
-[data-theme="dark"] #recent-posts .recent-post-item,
-[data-theme="dark"] #aside-content .card-widget,
-[data-theme="dark"] #post{
- background:#2b2b2b;
-}
-
-/* ======================
-公告卡片
-====================== */
-
-#aside-content .card-announcement{
- background:#a8d3d9;
- border-radius:12px;
-}
-
-/* ======================
-Footer透明
-====================== */
-
-#footer-wrap{
- background:rgba(255,255,255,0.15)!important;
- backdrop-filter:blur(10px);
-}
-
-#footer{
- background:transparent!important;
-}
-
-#footer::before{
- display:none !important;
-}
-
-#footer .layout{
- background:transparent!important;
-}
-
-[data-theme="dark"] #footer-wrap{
- background:rgba(0,0,0,0.35)!important;
-}
-
-/* ======================
-Live2D按钮
-====================== */
-
-#live2d-tools span{
- width:30px;
- height:30px;
- margin:4px 0;
- border-radius:6px;
- background:rgba(0,0,0,.5);
- transition:.3s;
-}
-
-#live2d-tools span:hover{
- background:#8d42ca;
- transform:scale(1.1);
-}
-
-/* ======================
-右侧工具栏
-====================== */
-
-#rightside{
- right:20px;
- bottom:100px;
-}
-
-#rightside .rightside-item{
- width:45px;
- height:45px;
- display:flex;
- align-items:center;
- justify-content:center;
- border-radius:10px;
- background:#49b1f5;
- color:#fff;
- backdrop-filter:blur(6px);
- transition:.3s;
-}
-
-#rightside .rightside-item:hover{
- transform:translateX(-3px);
- background:#49b1f5;
-}
-
-#rightside .rightside-item i,
-#rightside .rightside-item svg{
- font-size:18px;
- color:#444;
- fill:#444;
+.recent-posts .cover-div img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
