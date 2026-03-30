@@ -204,25 +204,6 @@
     
     
     <entry>
-      <title>bu8</title>
-      <link href="/posts/33243.html"/>
-      <url>/posts/33243.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>bu9</title>
       <link href="/posts/33452.html"/>
       <url>/posts/33452.html</url>
@@ -260,6 +241,25 @@
           <category> -博客测试 </category>
           
       </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu8</title>
+      <link href="/posts/33243.html"/>
+      <url>/posts/33243.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
+      
       
       
         <tags>
