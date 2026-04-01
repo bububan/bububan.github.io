@@ -1,543 +1,87 @@
-:root{
- --border-style:1px solid rgb(169,169,169);
+/* ========================================
+   统一全站背景：复用顶部横幅图作为全站背景
+   ======================================== */
+body {
+  background-image: url("https://pic1.zhimg.com/v2-731e0827ad80c319a5781e544ebd1344_r.jpg?source=1def8aca") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
 }
-
-/* ======================
-导航栏
-====================== */
-
-#nav{
- background:rgba(255,255,255,0.9)!important;
-}
-
-[data-theme="dark"] #nav{
- background:rgba(0,0,0,0.7)!important;
-}
-
-#nav .menus_items{
- display:flex!important;
- justify-content:center!important;
- width:100%;
-}
-
-/* ======================
-标题旋转图标
-====================== */
-
-#article-container h1::before,
-#article-container h2::before,
-#article-container h3::before,
-#article-container h4::before,
-#article-container h5::before,
-#article-container h6::before{
- animation:ccc 1.6s linear infinite;
-}
-
-@keyframes ccc{
- 0%{transform:rotate(0)}
- 100%{transform:rotate(-360deg)}
-}
-
-/* ======================
-作者卡片背景
-====================== */
-
-#aside-content .card-info{
- position:relative;
- overflow:hidden;
- border-radius:18px;
- background:none !important;
-}
-
-/* 背景图片 */
-
-#aside-content .card-info::before{
- content:"";
- position:absolute;
- inset:0;
- background-image:url("https://54325432.s3.bitiful.net/122979688_p0.webp");
- background-size:cover;
- background-position:center;
- z-index:-2;
-}
-
-/* 玻璃模糊层 */
-
-#aside-content .card-info::after{
- content:"";
- position:absolute;
- inset:0;
- backdrop-filter:blur(6px);
- background:rgba(255,255,255,0.15);
- z-index:-1;
-}
-
-/* 内容层 */
-
-#aside-content .card-info *{
- position:relative;
- z-index:1;
-}
-
-/* 头像 */
-
-#aside-content .card-widget.card-info .avatar-img img{
- border-radius:50%;
- border:3px solid rgba(255,255,255,0.7);
- box-shadow:0 4px 10px rgba(0,0,0,.3);
-}
-
-/* ======================
-首页文章卡片
-====================== */
-
-#recent-posts{
- display:grid;
- grid-template-columns:repeat(auto-fill,minmax(420px,1fr));
- gap:25px;
- max-width:1400px;
- margin:auto;
-}
-
-#recent-posts .recent-post-item{
- width:100%;
- border-radius:20px;
- overflow:hidden;
- box-shadow:0 10px 25px rgba(0,0,0,0.15);
- transition:.3s;
-}
-
-#recent-posts .recent-post-item:hover{
- transform:translateY(-6px);
- box-shadow:0 12px 30px rgba(0,0,0,.18);
-}
-
-#recent-posts .post_cover img{
- height:220px;
- object-fit:cover;
-}
-
-#recent-posts .post-title{
- font-size:22px;
- font-weight:700;
-}
-
-/* ======================
-文章页
-====================== */
-
-div#post,
-div#archive{
- background:#fff;
- border-radius:20px;
- border:var(--border-style);
-}
-
-/* ======================
-夜间模式
-====================== */
-
-[data-theme="dark"] #recent-posts .recent-post-item,
-[data-theme="dark"] #aside-content .card-widget,
-[data-theme="dark"] #post{
- background:#2b2b2b;
-}
-
-/* ======================
-公告卡片
-====================== */
-
-#aside-content .card-announcement{
- background:#a8d3d9;
- border-radius:12px;
-}
-
-/* ======================
-Footer透明
-====================== */
-
-#footer-wrap{
- background:rgba(255,255,255,0.15)!important;
- backdrop-filter:blur(10px);
-}
-
-#footer{
- background:transparent!important;
-}
-
-#footer::before{
- display:none !important;
-}
-
-#footer .layout{
- background:transparent!important;
-}
-
-[data-theme="dark"] #footer-wrap{
- background:rgba(0,0,0,0.35)!important;
-}
-
-/* ======================
-Live2D按钮
-====================== */
-
-#live2d-tools span{
- width:30px;
- height:30px;
- margin:4px 0;
- border-radius:6px;
- background:rgba(0,0,0,.5);
- transition:.3s;
-}
-
-#live2d-tools span:hover{
- background:#8d42ca;
- transform:scale(1.1);
-}
-
-/* ======================
-右侧工具栏
-====================== */
-
-#rightside{
- right:20px;
- bottom:100px;
-}
-
-#rightside .rightside-item{
- width:45px;
- height:45px;
- display:flex;
- align-items:center;
- justify-content:center;
- border-radius:10px;
- background:#49b1f5;
- color:#fff;
- backdrop-filter:blur(6px);
- transition:.3s;
-}
-
-#rightside .rightside-item:hover{
- transform:translateX(-3px);
- background:#49b1f5;
-}
-
-#rightside .rightside-item i,
-#rightside .rightside-item svg{
- font-size:18px;
- color:#444;
- fill:#444;
-}
-
-/* 归档页顶部透明 */
-#page-header {
+#page-header.home-index {
   background: transparent !important;
-}
-
-/* 去掉蓝色遮罩 */
-#page-header::before {
-  background: transparent !important;
-}
-
-/* ======================
-归档页顶部背景透明
-====================== */
-
-/* 主容器 */
-#page-header,
-#page-header.not-home-page,
-#page-header.post-bg{
-  background: transparent !important;
-  background-color: transparent !important;
   box-shadow: none !important;
 }
-
-/* 去掉主题自带遮罩 */
-#page-header::before,
-#page-header::after{
-  background: transparent !important;
-  background-image: none !important;
-}
-
-/* 归档页标题区域透明 */
-#page-header #page-site-info{
-  background: transparent !important;
-}
-
-/* 夜间模式 */
-[data-theme="dark"] #page-header,
-[data-theme="dark"] #page-header.not-home-page,
-[data-theme="dark"] #page-header.post-bg{
-  background: transparent !important;
-}
-
-/* 欢迎信息 */
-#welcome-info {
-  background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
-  border-radius: 18px;
-  padding: 8px;
-}
-[data-theme="dark"] #welcome-info {
-  background: #212121;
-}
-
-svg.icon {
-   width: 1em; height: 1em;
-   /* width和height定义图标的默认宽度和高度*/
-   vertical-align: -0.15em;
-   fill: currentColor;
-   overflow: hidden;
-}
-
-/* tzy页脚样式 */
-#ft {
-  max-width: 1200px;
-  margin: 0 auto 12px;
-  display: flex;
-  color: rgb(255 255 255 / 80%) !important;
-  text-align: left;
-  flex-wrap: wrap;
-}
-
-.ft-item-1,
-.ft-item-2 {
-  display: flex;
-  height: 100%;
-  padding: 2px 14px;
-}
-
-.ft-item-1 {
-  flex-direction: column;
-  flex: 2;
-}
-
-.ft-item-2 {
-  flex: 1;
-  flex-direction: column;
-}
-
-.t-top {
-  display: flex;
-}
-
-.t-top .t-t-l {
-  display: flex;
-  flex-direction: column;
-  flex: 1.4;
-  margin-right: 10px;
-}
-
-.t-top .t-t-l .bg-ad {
-  width: 85%;
-  border-radius: 10px;
-  padding: 0 10px;
-}
-
-.btn-xz-box {
-  margin-top: 10px;
-}
-
-/* 按钮背景颜色等 */
-.btn-xz {
-  display: block;
-  background-color: var(--btn-bg);
-  color: var(--btn-color);
-  text-align: center;
-  line-height: 2.4;
-  margin: 8px 0;
-}
-
-.btn-xz:hover {
-  text-decoration: none !important;
-}
-/* 按钮悬浮颜色 */
-.btn-xz-box:hover .btn-xz {
-  background-color: var(--text-bg-hover);
-}
-
-.t-top .t-t-r {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.ft-links {
-  padding: 0 14px;
-  list-style: none;
-  margin-top: 0 !important;
-}
-
-.ft-links li a {
-  display: inline-block !important;
-  width: 50%;
-}
-/* 链接悬浮颜色 */
-.ft-links li a:hover {
-  text-decoration: none !important;
-  color: var(--theme-color) !important;
-}
-
-.ft-item-2 .ft-img-group {
-  width: 100%;
-}
-
-.ft-t {
-  font-size: 1.1rem;
-  margin-bottom: 20px;
-  line-height: 1;
-  font-weight: 600;
-}
-
-.t-l-t {
-  padding-left: 14px;
-}
-
-.ft-item-2 .ft-img-group .img-group-item {
-  display: inline-block;
-  width: 18.4%;
-  margin-right: 14px;
-  margin-bottom: 6px;
-}
-
-.ft-item-2 .ft-img-group .img-group-item a {
-  display: inline-block;
+#page-header.home-index::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
 }
-
-.ft-item-2 .ft-img-group .img-group-item a img {
-  width: 100%;
-  max-height: 80px;
+#page-header.home-index .site-title,
+#page-header.home-index #nav,
+#page-header.home-index .subtitle {
+  position: relative;
+  z-index: 2;
+}
+.recent-posts .card-content {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
   border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-/* 头像悬浮颜色框 */
-.ft-item-2 .ft-img-group .img-group-item a img:hover {
-  border: 2px solid var(--theme-color);
+.recent-posts .card-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
-
-@media screen and (max-width: 768px) {
-  .ft-item-1 {
-    flex-basis: 100% !important;
-  }
-
-  .ft-item-2 {
-    flex-basis: 100% !important;
-  }
-
-  .t-top .t-t-l .bg-ad {
-    width: 100%;
-  }
+aside .card-widget {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
-
-@media screen and (max-width: 576px) {
-  .t-top {
-    flex-wrap: wrap;
-  }
-
-  .t-top .t-t-l {
-    flex-basis: 100% !important;
-  }
-
-  .t-top .t-t-r {
-    margin-top: 16px;
-    flex-basis: 100% !important;
-  }
+#post-comment {
+  background-color: rgba(255,255,255,0.92) !important;
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
 }
-#footer-wrap a {
-  border-radius: 30px;
+#web_bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: -1;
+  pointer-events: none;
 }
-#footer-wrap {
-  padding: 20px 20px;
+.recent-posts .card-content,
+aside .card-widget {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* 页脚心跳动画 */
-#heartbeat {
-  color: red;
-  animation: iconAnimate 1s ease-in-out infinite;
+.recent-posts .card-content:hover,
+aside .card-widget:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
-@-moz-keyframes iconAnimate {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  10%,
-  30% {
-    transform: scale(0.9);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: scale(1.1);
-  }
-  50%,
-  70% {
-    transform: scale(1.1);
-  }
+/* 美化文章卡片封面图 */
+.recent-posts .cover-div {
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
 }
-@-webkit-keyframes iconAnimate {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  10%,
-  30% {
-    transform: scale(0.9);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: scale(1.1);
-  }
-  50%,
-  70% {
-    transform: scale(1.1);
-  }
+.recent-posts .cover-div:hover {
+  transform: scale(1.03);
 }
-@-o-keyframes iconAnimate {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  10%,
-  30% {
-    transform: scale(0.9);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: scale(1.1);
-  }
-  50%,
-  70% {
-    transform: scale(1.1);
-  }
-}
-@keyframes iconAnimate {
-  0%,
-  100% {
-    transform: scale(1);
-  }
-  10%,
-  30% {
-    transform: scale(0.9);
-  }
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: scale(1.1);
-  }
-  50%,
-  70% {
-    transform: scale(1.1);
-  }
-}
-
-/* 信息卡片彩带 */
-.author_top:hover {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
-  background-size: cover;
+.recent-posts .cover-div img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
