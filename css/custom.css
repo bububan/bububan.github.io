@@ -46,23 +46,29 @@
  position:relative;
  overflow:hidden;
  border-radius:18px;
- background:none !important;
 }
 
-/* 背景图片 */
-
+/* 背景图 */
 #aside-content .card-info::before{
  content:"";
  position:absolute;
  inset:0;
- background-image:url("https://54325432.s3.bitiful.net/122979688_p0.webp");
  background-size:cover;
  background-position:center;
  z-index:-2;
 }
 
-/* 玻璃模糊层 */
+/* 白天背景 */
+[data-theme="light"] #aside-content .card-info::before{
+ background-image:url("https://54325432.s3.bitiful.net/96552364_p0.webp");
+}
 
+/* 夜间背景 */
+[data-theme="dark"] #aside-content .card-info::before{
+ background-image:url("https://54325432.s3.bitiful.net/R-C.jpg");
+}
+
+/* 玻璃模糊层 */
 #aside-content .card-info::after{
  content:"";
  position:absolute;
@@ -73,12 +79,10 @@
 }
 
 /* 内容层 */
-
 #aside-content .card-info *{
  position:relative;
  z-index:1;
 }
-
 /* 头像 */
 
 #aside-content .card-widget.card-info .avatar-img img{
@@ -105,6 +109,10 @@
  overflow:hidden;
  box-shadow:0 10px 25px rgba(0,0,0,0.15);
  transition:.3s;
+ background:var(--card-bg);
+}
+[data-theme="dark"] #recent-posts .recent-post-item{
+ background:#2b2b2b;
 }
 
 #recent-posts .recent-post-item:hover{
@@ -536,16 +544,3 @@ svg.icon {
   }
 }
 
-/* 个人信息卡片背景图 */
-[data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://54325432.s3.bitiful.net/96552364_p0.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260401%2F%2Fs3%2Faws4_request&X-Amz-Date=20260401T081125Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=92ebcd0c25969468dd57aed186f7dd29f3212c01c415bb0bc3077374461dcd41);
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 100%;
-}
-[data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://54325432.s3.bitiful.net/R-C.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260401%2F%2Fs3%2Faws4_request&X-Amz-Date=20260401T081158Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=49d994085c6ea64d942b3448d94a370291be5b38e573eeae3ed143336f0c3c15);
-  background-repeat: no-repeat;
-  background-attachment: inherit;
-  background-size: 100%;
-}
