@@ -538,13 +538,13 @@ svg.icon {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://54325432.s3.bitiful.net/96552364_p0.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260401%2F%2Fs3%2Faws4_request&X-Amz-Date=20260401T075203Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=63d87ca856991a911818c851c09e99516c5221864f4ff79541b6fb92b53ac3e1);
+  background-image: url(https://sourcebucket.s3.ladydaily.com/img/snowflower.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://54325432.s3.bitiful.net/R-C.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260401%2F%2Fs3%2Faws4_request&X-Amz-Date=20260401T075301Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=542fd7b82efc8f031b9e93838e4dc7d1fbffe8578504a6e68fd0ff9c820030f6);
+  background-image: url(https://sourcebucket.s3.ladydaily.com/img/aurora.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;

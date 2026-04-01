@@ -2710,10 +2710,6 @@ figure.highlight pre .javascript .function {
   font-weight: bold;
   font-size: 1.5em;
 }
-:root {
-  --theme-color: #39c5bb;
-  --text-bg-hover: rgba(57,197,187,0.7);
-}
 .recent-posts {
   padding: 0 5px 0 5px;
   height: fit-content;
@@ -2731,6 +2727,22 @@ figure.highlight pre .javascript .function {
   display: box;
   display: flex;
   position: relative;
+}
+.recent-posts .recent-post-item .recent-post-content:hover .recent-post-cover img {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  scale: 1.08;
+}
+.recent-posts .recent-post-item .recent-post-content:hover .article-content .article-content-text {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  scale: 1.08;
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-cover {
   display: -webkit-box;
@@ -2853,9 +2865,6 @@ figure.highlight pre .javascript .function {
   transition: all 0.2s ease-in-out;
   color: #969797;
 }
-.recent-posts .recent-post-item .recent-post-content .recent-post-info .recent-post-meta .article-meta-wrap a:hover {
-  color: var(--theme-color);
-}
 .recent-posts .recent-post-item .recent-post-content .article-content {
   display: -webkit-box;
   display: -moz-box;
@@ -2891,18 +2900,6 @@ figure.highlight pre .javascript .function {
   overflow: hidden;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
-  -webkit-transition: -webkit-transform 0.6s;
-  -moz-transition: -moz-transform 0.6s;
-  -o-transition: -o-transform 0.6s;
-  -ms-transition: -ms-transform 0.6s;
-  transition: transform 0.6s;
-}
-.recent-posts .recent-post-item .recent-post-content .article-content .article-content-text:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
 }
 .recent-posts .recent-post-item.ads-wrap {
   display: block !important;
@@ -2970,7 +2967,7 @@ figure.highlight pre .javascript .function {
   object-fit: cover;
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-info {
-  height: 145px;
+  height: 150px;
   width: 100%;
   padding: 0px 25px 5px 25px;
 }
