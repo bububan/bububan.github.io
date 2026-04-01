@@ -13,3 +13,21 @@ fetch("https://api.vvhan.com/api/ipInfo")
     当前IP地址：${ip}`
   }
 })
+
+// /source/js/welcome.js
+
+document.addEventListener("DOMContentLoaded", function () {
+  new Vue({
+    mounted() {
+      this.$notify({
+        title: "你已被发现😜",
+        message: "小伙子，扒源记住要遵循 GPL 协议！",
+        position: "top-left",
+        offset: 50,
+        showClose: true,
+        type: "warning",
+        duration: 5000
+      });
+    }
+  });
+});
