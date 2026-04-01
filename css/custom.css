@@ -60,12 +60,12 @@
 
 /* 白天背景 */
 [data-theme="light"] #aside-content .card-info::before{
- background-image:url("https://54325432.s3.bitiful.net/96552364_p0.webp");
+ background-image:url("https://ts1.tc.mm.bing.net/th/id/OIP-C.Z8PRHIyoF_ajCZMWOADsewHaEo?rs=1&pid=ImgDetMain&o=7&rm=3");
 }
 
 /* 夜间背景 */
 [data-theme="dark"] #aside-content .card-info::before{
- background-image:url("https://54325432.s3.bitiful.net/R-C.jpg");
+ background-image:url("https://pic3.zhimg.com/v2-8d6aaa767ec5f0dad922bb3cf11b3847_r.jpg?source=1940ef5c");
 }
 
 /* 玻璃模糊层 */
