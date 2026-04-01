@@ -295,7 +295,7 @@ svg.icon {
   margin: 0 auto 12px;
   display: flex;
   color: rgb(255 255 255 / 80%) !important;
-  text-align: left;
+  text-align: center;
   flex-wrap: wrap;
 }
 
