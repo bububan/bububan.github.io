@@ -2715,6 +2715,7 @@ figure.highlight pre .javascript .function {
   height: fit-content;
 }
 .recent-posts .recent-post-item {
+  height: 200px;
   margin-bottom: 15px;
   overflow: hidden;
   border-radius: 15px;
@@ -2952,13 +2953,13 @@ figure.highlight pre .javascript .function {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
-  max-height: 350px;
+  height: 200px;
   height: auto;
   width: 100%;
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-cover {
   width: 100%;
-  height: 200px;
+  height: 100%;
   clip-path: polygon(0 130px, 0 0, 100% 0, 100% 130px, 50% 100%);
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-cover img {
@@ -2967,7 +2968,11 @@ figure.highlight pre .javascript .function {
   object-fit: cover;
 }
 .recent-posts .recent-post-item .recent-post-content .recent-post-info {
-  height: 150px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  color: #fff;
   width: 100%;
   padding: 0px 25px 5px 25px;
 }
