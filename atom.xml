@@ -71,36 +71,11 @@
   </entry>
   
   <entry>
-    <title>bu11</title>
-    <link href="http://www.ububan.github.io/posts/23246.html"/>
-    <id>http://www.ububan.github.io/posts/23246.html</id>
-    <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-24T06:50:11.900Z</updated>
-    
-    <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;##这是我的第11篇文章&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="-博客测试" scheme="http://www.ububan.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
-    
-    
-    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>bu10</title>
     <link href="http://www.ububan.github.io/posts/43215.html"/>
     <id>http://www.ububan.github.io/posts/43215.html</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-24T06:31:39.175Z</updated>
+    <updated>2026-04-07T03:51:35.833Z</updated>
     
     <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
     
@@ -113,7 +88,32 @@
     
     
     
-    <category term="-博客测试" scheme="http://www.ububan.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <category term="-python笔记" scheme="http://www.ububan.github.io/categories/python%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bu11</title>
+    <link href="http://www.ububan.github.io/posts/23246.html"/>
+    <id>http://www.ububan.github.io/posts/23246.html</id>
+    <published>2026-03-17T13:24:45.000Z</published>
+    <updated>2026-04-07T03:51:46.042Z</updated>
+    
+    <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##这是我的第11篇文章&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="-python笔记" scheme="http://www.ububan.github.io/categories/python%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
@@ -171,29 +171,6 @@
   </entry>
   
   <entry>
-    <title>bu8</title>
-    <link href="http://www.ububan.github.io/posts/33243.html"/>
-    <id>http://www.ububan.github.io/posts/33243.html</id>
-    <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-30T01:58:24.671Z</updated>
-    
-    <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;##这是我的第⑧篇文章&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>linux进程内存空间</title>
     <link href="http://www.ububan.github.io/posts/12344.html"/>
     <id>http://www.ububan.github.io/posts/12344.html</id>
@@ -218,49 +195,25 @@
   </entry>
   
   <entry>
-    <title>bu6</title>
+    <title>Python文件操作</title>
     <link href="http://www.ububan.github.io/posts/23245.html"/>
     <id>http://www.ububan.github.io/posts/23245.html</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-04-07T03:35:53.486Z</updated>
+    <updated>2026-04-07T03:46:43.537Z</updated>
     
-    <content type="html"><![CDATA[<p>##这是我的第六篇文章</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;##这是我的第六篇文章&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="-linux笔记" scheme="http://www.ububan.github.io/categories/linux%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>bu9</title>
-    <link href="http://www.ububan.github.io/posts/33452.html"/>
-    <id>http://www.ububan.github.io/posts/33452.html</id>
-    <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-04-01T07:16:54.959Z</updated>
-    
-    <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
+    <content type="html"><![CDATA[<h1>打开文件</h1><p>python 使用内置函数 open（）打开文件，创建 file 对象，在系统中，只有存在 file 对象后，用户才能对文件进行相应的操作</p><img src="https://54325432.s3.bitiful.net/image%20%2832%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034307Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=dfd4454bdd5a995285ca5d6a1b7d9ea5d9cc5d44e003a8af57f967a7f32c2499" width="507" title="" crop="0,0,1,1" id="ua32239ea" class="ne-image"><ul><li>文件名（name）为必选参数,name:是要打开的目标文件名的字符串（可以包含文件所在的具体路径）</li><li>模式（mode）和缓冲（buffering）参数是可选的，mode：设置打开文件的模式（访问模式）：只读，写入，追加等</li><li>该函数返回一个文件对象</li><li>encoding：编码格式（推荐使用 UTF-8）</li></ul><img src="https://54325432.s3.bitiful.net/image%20%2833%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034319Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c7ed4712c1d89e7bab4f940fa5783178b489b177dcc90215b7b42df3678e901f" width="1083" title="" crop="0,0,1,1" id="u22dc940c" class="ne-image"><img src="https://54325432.s3.bitiful.net/image%20%2834%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034336Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=2335097b29d13318931ec979793696e56952390354caf053a8307ebff904a558" width="673" title="" crop="0,0,1,1" id="u808cf07c" class="ne-image"><h2 id="模式参数组合及其描述">模式参数组合及其描述</h2><table><thead><tr><th>模式参数组合</th><th>描述</th></tr></thead><tbody><tr><td>r+</td><td>以读写模式打开</td></tr><tr><td>w+</td><td>以读写模式打开</td></tr><tr><td>a+</td><td>以读写模式打开</td></tr><tr><td>rb</td><td>以二进制读模式打开</td></tr><tr><td>wb</td><td>以二进制写模式打开</td></tr><tr><td>ab</td><td>以二进制追加模式打开</td></tr><tr><td>rb+</td><td>以二进制读写模式打开</td></tr><tr><td>wb+</td><td>以二进制读写模式打开</td></tr><tr><td>ab+</td><td>以二进制读写模式打开</td></tr></tbody></table><img src="https://54325432.s3.bitiful.net/image%20%2835%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034348Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8bd6dbb84f2e77daf88975a4d9922286c370db6fb79301eaebbe2cc5804f242b" width="394" title="" crop="0,0,1,1" id="u643fa181" class="ne-image"><p>写模式打开一个指定的文件（C:\Users\test.txt)</p><p>f 是一个文件对象，它与指定的文件建立了关联，很多文献称 f 为文件描述符</p><img src="https://54325432.s3.bitiful.net/image%20%2836%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034403Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=e1ef2a8807fbd7571a9f89d3a88d4c3c1d3a3a89e54cc843fce9bc7f9e62dc5d" width="282" title="" crop="0,0,1,1" id="u7cb913c2" class="ne-image"><p>读取的文件与程序在相同文件夹中，直接提供文件名即可</p><p>以<font style="color:#DF2A3F;">读模式</font>打开文件时，文件必须存在，否则会<font style="color:#DF2A3F;">引发异常</font></p><p>以<font style="color:#DF2A3F;">写模式</font>打开一个文件时，如果输出文件已经<font style="color:#DF2A3F;">存在</font>，那么它在写入新数据之前会被<font style="color:#DF2A3F;">清空</font>；如果文件不存在，会<font style="color:#DF2A3F;">创建一个空文件</font></p><h1>close（）关闭文件对象</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">f = open(<span class="string">&quot;python.txt&quot;</span>, <span class="string">&quot;r&quot;</span>)</span><br><span class="line">f.close()</span><br><span class="line">#最后通过close，关闭文件对象，也就是关闭对文件的占用</span><br><span class="line">#如果不调用close，同时程序没有停止运行，那么这个文件将一直被python程序占用</span><br></pre></td></tr></table></figure><h1>with open 语法</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">with <span class="title function_">open</span><span class="params">(<span class="string">&quot;python.txt&quot;</span>, <span class="string">&quot;r&quot;</span>)</span> as f:</span><br><span class="line">    f.<span class="title function_">readlines</span><span class="params">()</span></span><br><span class="line">#通过在with open的语句块中对文件进行操作</span><br><span class="line">#可以在操作完成后自动关闭close文件，避免遗忘掉close方法</span><br></pre></td></tr></table></figure><h2 id="案例演示">案例演示</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#<span class="number">1</span>，打开文件</span><br><span class="line">f = open(<span class="string">&#x27;python.txt&#x27;</span>,<span class="string">&#x27;w&#x27;</span>)</span><br><span class="line">#<span class="number">2</span>,文件写入</span><br><span class="line">f.write(<span class="string">&#x27;hello world&#x27;</span>)</span><br><span class="line">#<span class="number">3</span>,内容刷新</span><br><span class="line">f.flush()</span><br></pre></td></tr></table></figure><p><font style="color:#DF2A3F;">注意：</font></p><ul><li><font style="color:#DF2A3F;">直接调用 write，内容并未真正写入文件，而是会积攒在程序的内存中，称之为缓冲区</font></li><li><font style="color:#DF2A3F;">当调用 flush 的时候，内容会真正写入文件</font></li></ul><h1>读和写</h1><h2 id="1，read（）方法，语法格式如下：">1，read（）方法，语法格式如下：</h2><img src="https://54325432.s3.bitiful.net/image%20%2837%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034416Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b85c1b569faad9bb6af90868b1325de1773853f444c4e50db8c45625ae47f2fd" width="335" title="" crop="0,0,1,1" id="udc5cc14a" class="ne-image"><p>size——从文件中读取的字节数，如果未指定则读取文件的全部信息</p><p>返回值为从文件中读取的字符串</p><h2 id="2，write（）方法，语法格式如下；">2，write（）方法，语法格式如下；</h2><img src="https://54325432.s3.bitiful.net/image%20%2838%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034425Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=3d5f81e0b863134d54cbfafe32930838a341cecf5705e1fdb17209c6bc7acd7e" width="274" title="" crop="0,0,1,1" id="u584decc8" class="ne-image"><p>write（）方法将字符串写入一个打开的文件</p><p>write（）方法不会自动在字符串的末尾添加换行符（‘\n’)，需要人为在字符串末尾添加换行符，</p><p>返回值：写入的字符数或字节数</p><h2 id="会读文件">会读文件</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">f = open(<span class="string">&quot;./data.txt&quot;</span>)</span><br><span class="line">print(f.read()) #对文件的操作</span><br><span class="line">f.close()   #关闭文件，释放资源</span><br></pre></td></tr></table></figure><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">with <span class="title function_">open</span><span class="params">(<span class="string">&quot;./data.txt&quot;</span>)</span> as f:</span><br><span class="line"><span class="title function_">print</span><span class="params">(f.read())</span>  #对文件的操作</span><br></pre></td></tr></table></figure><p>with 后面跟上 open 函数的调用</p><p>as 后面跟上文件对象的命名，冒号，缩进的代码块放上对该文件对象的操作，这样在缩进的内容执行完毕后，文件就会被自动关闭，写法二能让代码更加简洁，不用单独调用 close 方法了</p><h3 id="readline-方法">readline 方法</h3><p>用于读取文件中所有行，直到结束符 EOF，并返回列表，包括所有行的信息，该列表可以由 python 的“for…in…&quot;结构进行处理</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">f = open(<span class="string">&quot;./data.txt&quot;</span>, <span class="string">&quot;r&quot;</span>, encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">line = f.readline() </span><br><span class="line">    #读第一行</span><br><span class="line"><span class="keyword">while</span> line != <span class="string">&quot;&quot;</span>:   </span><br><span class="line">#判断当前行是否为空</span><br><span class="line">    print(line)   </span><br><span class="line">        #不为空则打印当前行</span><br><span class="line">    line = f.readline()  </span><br><span class="line">        #读取下一行</span><br></pre></td></tr></table></figure><h3 id="readlines-方法">readlines 方法</h3><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">f = open(<span class="string">&quot;./data.txt&quot;</span>, <span class="string">&quot;r&quot;</span>,encoding=<span class="string">&quot;utf-8&quot;</span>)</span><br><span class="line">    <span class="meta">#readlines会读全部文件内容，并把每行作为列表元素返回</span></span><br><span class="line">    print(f.readlines())</span><br></pre></td></tr></table></figure><img src="https://54325432.s3.bitiful.net/image%20%2839%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034437Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5e01e64da68d24ffb83e43ae835fa6271caccf0a6cdee7bd805ab7d466ae30cf" width="1495" title="" crop="0,0,1,1" id="ue355f54c" class="ne-image"><h1>读取行</h1><ul><li>调用 read（）会一次性读取文件的全部内容，如果文件有 10G，太耗内存，所以，保险起见，可反复调用 read（size）方法，每次最多读取 size 个字节的内容</li><li>调用 readline（）可以每次读取一行内容，调用 readlines（）一次读取所有内容并按行返回 list，因此，要根据需要决定怎么调用</li><li>如果<font style="color:#DF2A3F;">文件很小</font>，read（）一次性读取最方便；如果<font style="color:#DF2A3F;">不能确定文件大小</font>，反复调用 read（size）比较保险；如果是<font style="color:#DF2A3F;">配置文件</font>，调用 readlines（）最方便</li></ul><h2 id="unittest-TestCase-类的常见测试方法">unittest.TestCase 类的常见测试方法</h2><img src="https://54325432.s3.bitiful.net/image%20%2840%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034453Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=43308c745bc39776e76546a92b3db04c824a7ab5ca6e1ee1bab75465aea1424c" width="1132" title="" crop="0,0,1,1" id="u6f6fa854" class="ne-image"><h1>操作汇总</h1><table><thead><tr><th>操作</th><th>功能</th></tr></thead><tbody><tr><td>文件对象 = open(file,mode,encoding)</td><td>打开文件获得文件对象</td></tr><tr><td>文件对象.read(num)</td><td>读取指定长度字节<br/>不指定 num 读取文件全部</td></tr><tr><td>文件对象.readline()</td><td>读取一行</td></tr><tr><td>文件对象.readlines()</td><td>读取全部行，得到列表</td></tr><tr><td>for line in 文件对象</td><td>for 循环文件行，一次循环得到一行数据</td></tr><tr><td>文件对象.close()</td><td>关闭文件对象</td></tr><tr><td>with open() as f</td><td>通过 with open 语法打开文件，可以自动关闭</td></tr></tbody></table><h1>创建目录</h1><p>mkdir（）方法，语法格式如下：</p><img src="https://54325432.s3.bitiful.net/image%20%2841%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034510Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ef8a6cd7e66ef2cf125c1996800526ae9246ca1c1eccea3d5d4ba9ec9af72495" width="233" title="" crop="0,0,1,1" id="u2bf6141d" class="ne-image"><p>newdir——新建的目录名称，必须要带目录的完整路径</p><p>注意：要使用目录操作相关的内置函数，必须先导入 os 模块，然后才可以调用相关的功能</p><p>os.mkdir()方法应用如下所示：</p><img src="https://54325432.s3.bitiful.net/image%20%2842%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034517Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=0b8f6f50d6f3393a17c6a4a163ae1437499683a2042c06bf99435e896c1a4424" width="343" title="" crop="0,0,1,1" id="ua15f9550" class="ne-image"><h2 id="显示当前工作目录">显示当前工作目录</h2><p>getcwd（）方法，语法格式如下：</p><img src="https://54325432.s3.bitiful.net/image%20%2843%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034529Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=e78ea435a1db7625c99bc6d93e1065cffa55919a7c58bc3dbcb5fafb6c905750" width="294" title="" crop="0,0,1,1" id="u28f68058" class="ne-image"><h1>改变目录</h1><p>chdir（）方法，语法格式如下：</p><img src="https://54325432.s3.bitiful.net/image%20%2844%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034537Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=739544623c5c0302ff179b894451292bec837d84cf7400df6a8d94ecd92fb699" width="215" title="" crop="0,0,1,1" id="ua5a3472b" class="ne-image"><p>chdir——要改变的新的工作目录名称，需要带目录的完整路径</p><img src="https://54325432.s3.bitiful.net/image%20%2845%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034547Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9aa69e18672476cd64d3ba0f3e746fa658ee26400e747a6c1fa6f585703b2df7" width="862" title="" crop="0,0,1,1" id="u183a3a99" class="ne-image"><h1>删除目录</h1><p>rmdir（）方法，语法格式如下：</p><img src="https://54325432.s3.bitiful.net/image%20%2846%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034600Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=77313496baff0a86941b06d079011493c1c1911a3d2baff21fbc6f1fef0a1072" width="252" title="" crop="0,0,1,1" id="u7b7ab781" class="ne-image"><p>rmdir——要删除的目录名称，需要带目录的完整路径</p><h1>OS 模块提供的与目录相关的函数</h1><table><thead><tr><th>getcwd（）</th><th>返回当前的工作目录</th></tr></thead><tbody><tr><td>listdir（path）</td><td>返回指定路径下的文件和目录信息</td></tr><tr><td>mkdir（path [,mode])</td><td>创建目录</td></tr><tr><td>makedirs（path1/path2…[,mode])</td><td>创建多级目录</td></tr><tr><td>rmdir（path）</td><td>删除目录</td></tr><tr><td>removedirs（path1/path2…)</td><td>删除多级目录</td></tr><tr><td>chdir（path）</td><td>把 path 设置为当前工作目录</td></tr><tr><td>walk（top[,topdown[,onerror]])</td><td>遍历目录树，该方法返回一个元组，包括所有路径名，所有目录列表和文件列表 3 个元素</td></tr></tbody></table><h1>os.path 模块提供的与目录相关的函数</h1><table><thead><tr><th>abspath（path）</th><th>用于获取文件或目录的绝对路径</th></tr></thead><tbody><tr><td>exists（path）</td><td>用于判断目录或文件是否存在，如果存在则返回 true，否则返回 false</td></tr><tr><td>join（path，name）</td><td>将目录与目录或者文件名拼接起来</td></tr><tr><td>splitext（）</td><td>分离文件名和扩展名</td></tr><tr><td>basename（path）</td><td>从一个目录中提取文件名</td></tr><tr><td>dirname（path）</td><td>从一个路径中提取文件路径，不包括文件名</td></tr><tr><td>isdir（path）</td><td>用于判断是否为路径</td></tr></tbody></table><h1>os.stat(path)获取基本信息</h1><p>返回值是一个对象，通过这个对象的一些属性就可以获取这个文件的基本信息</p><img src="https://54325432.s3.bitiful.net/image%20%2847%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034613Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f02d81ba98133e4dd8620ed5c3479f4fc9cc3b9db59b23a3548a64e9230af137" width="915" title="" crop="0,0,1,1" id="u80fc0ec5" class="ne-image"><h2 id="基本语法">基本语法</h2><p><font style="background-color:#C1E77E;">st_ctime 获取文件的创建日期(状态变化时间）</font></p><p><font style="background-color:#C1E77E;">st_mtime 获取文件的修改日期</font></p><p><font style="background-color:#C1E77E;">st_size 获取文件的大小</font></p><p><font style="background-color:#C1E77E;">st_mode 获取文件的保护模式</font></p><p><font style="background-color:#C1E77E;">st_ino 获取文件的索引号</font></p><p><font style="background-color:#C1E77E;">st_atime 获取文件的最后一次访问时间</font></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">import os </span><br><span class="line">def <span class="title function_">formatTime</span><span class="params">(longtime)</span>:</span><br><span class="line">    &#x27;&#x27;&#x27;格式化时间的函数&#x27;&#x27;&#x27;</span><br><span class="line">    import time</span><br><span class="line">    <span class="keyword">return</span> time.<span class="title function_">strftime</span><span class="params">(<span class="string">&quot;%Y-%m-%d %H:%M:%S&quot;</span>,time.localtime(longtime))</span></span><br><span class="line">def <span class="title function_">formatByte</span><span class="params">(number)</span></span><br><span class="line">    &#x27;&#x27;&#x27;格式化文件大小的函数&#x27;&#x27;&#x27;</span><br><span class="line">    <span class="title function_">for</span> <span class="params">(scale,label)</span> in [<span class="params">(<span class="number">1024</span>*<span class="number">1024</span>*<span class="number">1024</span>,<span class="string">&quot;GB&quot;</span>)</span>,<span class="params">(<span class="number">1024</span>*<span class="number">1024</span>,<span class="string">&quot;MB&quot;</span>)</span>,<span class="params">(<span class="number">1024</span>,<span class="string">&quot;KB&quot;</span>)</span>]:</span><br><span class="line">        <span class="keyword">if</span> number&gt;=scale: #大于等于<span class="number">1</span>KB</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;%.2f %s&quot;</span> %(number*<span class="number">1.0</span>/scale,lable)</span><br><span class="line">        elif number == <span class="number">1</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="string">&quot;1 字节&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:  #小于<span class="number">1</span>KB</span><br><span class="line">            byte = <span class="string">&quot;%.2f&quot;</span> %(number or <span class="number">0</span>)</span><br><span class="line">        <span class="keyword">return</span> (byte[:<span class="number">-3</span>] <span class="keyword">if</span> byte.endswith(<span class="string">&quot;.00&quot;</span>) <span class="keyword">else</span> byte) + <span class="string">&quot;字节&quot;</span></span><br><span class="line">            </span><br><span class="line">fileino = os.stat(<span class="string">&quot;mr.png&quot;</span>) #获取文件的基本信息</span><br><span class="line">print(<span class="string">&quot;文件完整路径：&quot;</span>,os.path.abspat(<span class="string">&quot;mr.png&quot;</span>))  #获取文件的完整路径</span><br><span class="line">#输出文件的基本信息：</span><br><span class="line">print(<span class="string">&quot;索引号：&quot;</span>,fileinfo.st_ino)</span><br><span class="line">print(<span class="string">&quot;设备名：&quot;</span>,fileinfo.st_dev)</span><br><span class="line">print(<span class="string">&quot;文件大小：&quot;</span>,fileinfo.st_size)</span><br><span class="line">print(<span class="string">&quot;最后一次访问时间：&quot;</span>,fileinfo.st_atime)</span><br><span class="line">print(<span class="string">&quot;最后一次修改时间：&quot;</span>,fileinfo.st_mtime)</span><br><span class="line">print(<span class="string">&quot;最后一次状态变化的时间：&quot;</span>,fileinfo.st_ctime)</span><br></pre></td></tr></table></figure><img src="https://54325432.s3.bitiful.net/image%20%2848%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034629Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b02eea3b4524a9d25ed3e8a68a524323fe4a35847db1ed7e8fad5c8bc8271bce" width="1613" title="" crop="0,0,1,1" id="u830540ab" class="ne-image"><h2 id="使用递归算法遍历目录下所有文件">使用递归算法遍历目录下所有文件</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line">allfile = []</span><br><span class="line"></span><br><span class="line">def getFiles(path,level):</span><br><span class="line">    childFiles = os.listdir(path)</span><br><span class="line">    <span class="keyword">for</span> file in childFiles:</span><br><span class="line">        filepath = os.path.join(path,file)</span><br><span class="line">        <span class="keyword">if</span> os.path.isdir(filepath):</span><br><span class="line">            getFiles(filepath,level+<span class="number">1</span>)</span><br><span class="line">        allfile.append(<span class="string">&quot;\t&quot;</span>*level+filepath)</span><br><span class="line"></span><br><span class="line">getFiles(os.getcwd(),<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> f in reversed(allfile):</span><br><span class="line">    print(f)</span><br></pre></td></tr></table></figure><img src="https://54325432.s3.bitiful.net/image%20%2849%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=jV9TksE6z1iWPKscHVQSK8Pe%2F20260407%2F%2Fs3%2Faws4_request&X-Amz-Date=20260407T034637Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=54480bdf16d43175d865075c8f933771610ec33fbed8ab882e3e78a65f543f55" width="771" title="" crop="0,0,1,1" id="uf46172d3" class="ne-image">]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;##这是我的第⑨篇文章&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;h1&gt;打开文件&lt;/h1&gt;
+&lt;p&gt;python 使用内置函数 open（）打开文件，创建 file 对象，在系统中，只有存在 file 对象后，用户才能对文件进行相应的操作&lt;/p&gt;
+&lt;img src=&quot;https://54325432.s3.bitiful.net/image%2</summary>
       
     
     
     
-    <category term="-博客测试" scheme="http://www.ububan.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <category term="-python笔记" scheme="http://www.ububan.github.io/categories/python%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
@@ -272,7 +225,7 @@
     <link href="http://www.ububan.github.io/posts/21234.html"/>
     <id>http://www.ububan.github.io/posts/21234.html</id>
     <published>2026-03-17T13:24:45.000Z</published>
-    <updated>2026-03-24T06:31:17.133Z</updated>
+    <updated>2026-04-07T03:51:53.626Z</updated>
     
     <content type="html"><![CDATA[<p>##这是我的第⑦篇文章</p>]]></content>
     
@@ -285,7 +238,55 @@
     
     
     
-    <category term="-博客测试" scheme="http://www.ububan.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%B5%8B%E8%AF%95/"/>
+    <category term="-python笔记" scheme="http://www.ububan.github.io/categories/python%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bu8</title>
+    <link href="http://www.ububan.github.io/posts/33243.html"/>
+    <id>http://www.ububan.github.io/posts/33243.html</id>
+    <published>2026-03-17T13:24:45.000Z</published>
+    <updated>2026-03-30T01:58:24.671Z</updated>
+    
+    <content type="html"><![CDATA[<p>##这是我的第⑧篇文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##这是我的第⑧篇文章&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>bu9</title>
+    <link href="http://www.ububan.github.io/posts/33452.html"/>
+    <id>http://www.ububan.github.io/posts/33452.html</id>
+    <published>2026-03-17T13:24:45.000Z</published>
+    <updated>2026-04-07T03:52:00.768Z</updated>
+    
+    <content type="html"><![CDATA[<p>##这是我的第⑨篇文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##这是我的第⑨篇文章&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="-python笔记" scheme="http://www.ububan.github.io/categories/python%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="-示例 -博客" scheme="http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/"/>
