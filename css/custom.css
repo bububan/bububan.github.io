@@ -23,7 +23,7 @@
 /* ======================
 标题旋转图标
 ====================== */
-
+/* 
 #article-container h1::before,
 #article-container h2::before,
 #article-container h3::before,
@@ -31,7 +31,7 @@
 #article-container h5::before,
 #article-container h6::before {
   animation: ccc 1.6s linear infinite;
-}
+} */
 
 @keyframes ccc {
   0% {
