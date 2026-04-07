@@ -3047,10 +3047,6 @@ figure.highlight pre .javascript .function {
     width: 100%;
   }
 }
-width: calc(100% / 2 - 8px),
-+minWidth2000() {
-  width: calc(100% / 3 - 8px);
-}
 #article-container .shuoshuo-item {
   margin-bottom: 20px;
   padding: 35px 30px 30px;
