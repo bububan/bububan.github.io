@@ -33,7 +33,7 @@
       <link href="/posts/12334.html"/>
       <url>/posts/12334.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第二篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第二篇文章</p><h1>bash 脚本的优点</h1><p><font style="color:rgb(10, 10, 35);">Bash 脚本是一种强大且灵活的工具，可以用于自动化系统管理任务、管理系统资源以及在 Unix/Linux 系统中执行其他例行任务。Shell 脚本的一些优点包括：</font></p><ul><li><strong><font style="color:rgb(27, 27, 50);">自动化</font></strong><font style="color:rgb(10, 10, 35);">：Shell 脚本允许你自动化重复性任务和过程，节省时间并减少手动执行时可能出现的错误。</font></li><li><strong><font style="color:rgb(27, 27, 50);">可移植性</font></strong><font style="color:rgb(10, 10, 35);">：Shell 脚本可以在各种平台和操作系统上运行，包括 Unix、Linux、macOS，甚至通过使用模拟器或虚拟机在 Windows 上运行。</font></li><li><strong><font style="color:rgb(27, 27, 50);">灵活性</font></strong><font style="color:rgb(10, 10, 35);">：Shell 脚本高度可定制，可以轻松修改以满足特定需求。它们还可以与其他编程语言或实用程序结合，创建更强大的脚本。</font></li><li><strong><font style="color:rgb(27, 27, 50);">易访问性</font></strong><font style="color:rgb(10, 10, 35);">：Shell 脚本易于编写，不需要任何特殊工具或软件。它们可以使用任何文本编辑器进行编辑，并且大多数操作系统都有内置的 shell 解释器。</font></li><li><strong><font style="color:rgb(27, 27, 50);">集成</font></strong><font style="color:rgb(10, 10, 35);">：Shell 脚本可以与其他工具和应用程序集成，如数据库、Web 服务器和云服务，从而实现更复杂的自动化和系统管理任务。</font></li><li><strong><font style="color:rgb(27, 27, 50);">调试</font></strong><font style="color:rgb(10, 10, 35);">：Shell 脚本易于调试，大多数 shell 都内置调试和错误报告工具，可以帮助快速识别和修复问题。</font></li></ul><h1>运行 shell 脚本的方法有两种：</h1><p>1， 作为可执行程序运行</p><p>2，作为解释器参数运行</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#！/bin/bash</span><br><span class="line">echo <span class="string">&quot;hello World&quot;</span></span><br></pre></td></tr></table></figure><h2 id="当作为可执行程序运行时">当作为可执行程序运行时</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">chmod +x test.sh</span><br><span class="line">#赋予可执行权限</span><br><span class="line">./test.sh </span><br><span class="line">#执行程序</span><br></pre></td></tr></table></figure><h2 id="当作为解释器运行时">当作为解释器运行时</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/bin/sh test.sh </span><br><span class="line">#执行命令</span><br><span class="line">/bin/php test.php</span><br><span class="line">#执行命令</span><br></pre></td></tr></table></figure><h1>创建 bash 脚本</h1><p>使用 vi 命令创建一个名为 run_all.sh 的文件</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi run_all.sh</span><br></pre></td></tr></table></figure><p>在文件中添加以下命令并保存</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">echo <span class="string">&quot;今天是 &quot;</span> `date`</span><br><span class="line"></span><br><span class="line">echo -e <span class="string">&quot;\n请输入目录路径&quot;</span></span><br><span class="line">read the_path</span><br><span class="line"></span><br><span class="line">echo -e <span class="string">&quot;\n 你的路径包含以下文件和文件夹：&quot;</span></span><br><span class="line">ls $the_path</span><br></pre></td></tr></table></figure><p>打印用户提供的目录内容的脚本</p><ul><li><font style="color:rgb(10, 10, 35);">第 1 行：Shebang (</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;#!/bin/bash&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">) 指向 bash shell 路径。</font></li><li><font style="color:rgb(10, 10, 35);">第 2 行：</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;echo&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">命令在终端显示当前日期和时间。注意</font><font style="color:rgb(10, 10, 35);"> </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;date&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">在反引号中。</font></li><li><font style="color:rgb(10, 10, 35);">第 4 行：我们希望用户输入一个有效的路径。</font></li><li><font style="color:rgb(10, 10, 35);">第 5 行：</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;read&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">命令读取输入并将其存储在变量</font><font style="color:rgb(10, 10, 35);"> </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;the_path&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">中。</font></li><li><font style="color:rgb(10, 10, 35);">第 8 行：</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;ls&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> 命令使用存储路径的变量并显示当前的文件和文件夹。</font></li></ul><h1>执行 bash 脚本</h1><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod u+x run_all.sh</span><br></pre></td></tr></table></figure><ul><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;chmod&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">修改文件的所有权以供当前用户使用：</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;u&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;+x&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">将执行权限添加到当前用户。这意味着作为所有者的用户现在可以运行该脚本。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;run_all.sh&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> 是我们希望运行的文件。</font></li></ul><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sh run_all.sh</span><br><span class="line">bash run_all.sh</span><br><span class="line">./run_all.sh</span><br></pre></td></tr></table></figure><h1>变量命令规范</h1><p><font style="color:rgb(10, 10, 35);">在 Bash 脚本中，以下是变量命名规范：</font></p><ol><li><font style="color:rgb(10, 10, 35);">变量名称应以字母或下划线 (</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;_&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">) 开头。</font></li><li><font style="color:rgb(10, 10, 35);">变量名称可以包含字母、数字和下划线 (</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;_&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">)。</font></li><li><font style="color:rgb(10, 10, 35);">变量名称区分大小写。</font></li><li><font style="color:rgb(10, 10, 35);">变量名称不应包含空格或特殊字符。</font></li><li><font style="color:rgb(10, 10, 35);">使用能反映变量用途的描述性名称。</font></li><li><font style="color:rgb(10, 10, 35);">避免使用保留关键字（如 </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;if&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">, </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;then&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">, </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;else&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">, </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;fi&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> 等）作为变量名称</font></li></ol><h1>收集输入</h1><p>1，读取用户输入并将其存储在变量中，可以使用 read 命令读取用户输入</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash </span><br><span class="line"></span><br><span class="line">echo <span class="string">&quot;What&#x27;s your name?&quot;</span> </span><br><span class="line"></span><br><span class="line">read entered_name </span><br><span class="line"></span><br><span class="line">echo -e <span class="string">&quot;\nWelcome to bash tutorial&quot;</span> $entered_name</span><br></pre></td></tr></table></figure><p>2，从文件读取</p><p><font style="color:rgb(10, 10, 35);">此代码从名为 </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;input.txt&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> 的文件中读取每一行并将其打印到终端。我们将在本文稍后学习 while 循环。</font></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> read line</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">  echo $line</span><br><span class="line">done &lt; input.txt</span><br></pre></td></tr></table></figure><p>3，命令行参数</p><p><font style="color:rgb(10, 10, 35);">在 bash 脚本或函数中，</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;$1&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">表示传递的初始参数，</font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;$2&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> </font><font style="color:rgb(10, 10, 35);">表示传递的第二个参数，以此类推。</font></p><p><font style="color:rgb(10, 10, 35);">此脚本将名字作为命令行参数并打印个性化问候语。</font></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo <span class="string">&quot;Hello, $1!&quot;</span></span><br></pre></td></tr></table></figure><p><font style="color:rgb(10, 10, 35);">我们将 </font><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;Zaira&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);"> 作为参数提供给脚本。</font></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">echo <span class="string">&quot;Hello, $1!&quot;</span></span><br></pre></td></tr></table></figure><p>脚本代码：<font style="color:rgb(10, 10, 35);background-color:rgb(208, 208, 213);">greeting.sh</font></p><p>输出</p><img src="https://cdn.nlark.com/yuque/0/2025/png/50252276/1758801473981-17d9ee2c-32cb-4495-82fb-367c6b184f1f.png" width="600" title="" crop="0,0,1,1" id="u1f54e128" class="ne-image"><p>显示输出</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">#打印到终端</span><br><span class="line">echo <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line">#写入文件</span><br><span class="line">echo <span class="string">&quot;This is some text.&quot;</span> &gt; output.txt</span><br><span class="line">#追加到文件</span><br><span class="line">echo <span class="string">&quot;More text.&quot;</span> &gt;&gt; output.txt</span><br><span class="line">#重定向输出</span><br><span class="line">ls &gt; files.txt</span><br></pre></td></tr></table></figure><h1>基本 bash 命令</h1><ol><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;cd&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 切换到不同目录。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;ls&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 列出当前目录的内容。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;mkdir&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 创建新目录。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;touch&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 创建新文件。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;rm&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 删除文件或目录。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;cp&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 复制文件或目录。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;mv&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 移动或重命名文件或目录。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;echo&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 将文本打印到终端。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;cat&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 连接并打印文件内容。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;grep&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 在文件中搜索模式。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;chmod&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 更改文件或目录的权限。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;sudo&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 以管理权限运行命令。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;df&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 显示可用磁盘空间。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;history&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 显示先前执行的命令列表。</font></li><li><code>&lt;font style=&quot;color:rgb(10, 10, 35);&quot;&gt;ps&lt;/font&gt;</code><font style="color:rgb(10, 10, 35);">: 显示有关正在运行的进程的信息。</font></li></ol><h1>脚本安全和 set</h1><p>set 命令：可以用来定制 shell 环境</p><p>h：hashall，打开选项后，Shell 会将命令所在的路径hash下来，避免每</p><p>次都要查询。通过set +h将h选项关闭</p><p>i：interactive-comments，包含这个选项说明当前的 shell 是一个交互式的 shell。所谓的交互式shell, 在脚本中，i选项是关闭的</p><p>m：monitor，打开监控模式，就可以通过Job control来控制进程的停</p><p>止、继续，后台或者前台执行等</p><p>B：braceexpand，大括号扩展</p><p>H：history，H选项打开，可以展开历史列表中的命令，可以通过!感叹号来完成，例如“!!”返回上最近的一个历史命令，“!n”返回第 n 个历史命令</p><p>set 命令实现脚本安全</p><p>-u 在扩展一个没有设置的变量时，显示错误信息， 等同set -o</p><p>nounset</p><p>-e 如果一个命令返回一个非0退出状态值(失败)就退出， 等同set -o</p><p>errexit</p><p>-o option 显示，打开或者关闭选项</p><p>显示选项：set -o</p><p>打开选项：set -o 选项 关闭选项：set +o 选项</p><p>-x 当执行命令时，打印命令及其参数,类似 bash -x</p><h1>bc 命令</h1><p>bash 计算器实际上是一种编程语言，允许在命令行中输入浮点数表达式，然后解释并计算该 表达式，最后返回结果。bash 计算器能够识别以下内容。</p><p>数字（整数和浮点数）</p><p>变量（简单变量和数组）</p><p>注释（以#或 C 语言中的/* */开始的行）</p><p>表达式</p><p>编程语句（比如 if-then 语句）</p><p>函数</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">-h --help</span><br><span class="line">print this usage and <span class="built_in">exit</span></span><br><span class="line">-i --interactive force interactive mode</span><br><span class="line">-l --mathlib use the predefined math routines</span><br><span class="line">-q --quiet</span><br><span class="line">don<span class="string">&#x27;t print initial banner</span></span><br><span class="line"><span class="string">-s --standard non-standard bc constructs are errors</span></span><br><span class="line"><span class="string">-w --warn</span></span><br><span class="line"><span class="string">warn about non-standard bc constructs</span></span><br><span class="line"><span class="string">-v --version print version information and exit</span></span><br></pre></td></tr></table></figure><p>浮点数运算是由内建变量 scale 控制的。必须将该变量的值设置为希望在计算结果中保留的小数位数，否则将无法得到期望的结果</p><p>scale 变量的默认值是 0。在 scale 值被设置前，bash 计算器的计算结果不包含小数位。 在将其设置成 4 后，bash 计算器显示的结果包含4 位小数。-q 选项可以不显示 bash 计算器冗长 的欢迎信息。</p><h1>read 命令接受输入</h1><p>尽管命令行选项和参数是从脚本用户处获取输入的一种重要方式，但有时候脚本还需要更多的交互性。你可能想要在脚本运行时询问用户并等待用户回答。为此，bash shell 提供了read 命令。</p><p>使用 read 能把输入值分配给一个或多个 shell 变量，read 从标准输入中读取值，给每个单词分配一个变量，所有剩余单词都被分配给最后一个变量，如果变量名没有指定，默认标准输入的值赋值给系统内置变量REPLY</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">-p 指定要显示的提示</span><br><span class="line">-s 静默输入，一般用于密码</span><br><span class="line">-n N 指定输入的字符长度N</span><br><span class="line">-d <span class="string">&#x27;字符&#x27;</span> 输入结束符</span><br><span class="line">-t N TIMEOUT为N秒</span><br></pre></td></tr></table></figure><p>read 命令从标准输入（键盘）或另一个文件描述符中接受输入。获取输入后，read 命令会将数据存入变量。</p>]]></content>
       
       
       <categories>
@@ -59,6 +59,31 @@
       <url>/posts/43215.html</url>
       
         <content type="html"><![CDATA[<p>##这是我的第10篇文章</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -博客测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -示例 -博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bu11</title>
+      <link href="/posts/23246.html"/>
+      <url>/posts/23246.html</url>
+      
+        <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
       
       
       <categories>
@@ -129,16 +154,16 @@
     
     
     <entry>
-      <title>bu11</title>
-      <link href="/posts/23246.html"/>
-      <url>/posts/23246.html</url>
+      <title>bu5</title>
+      <link href="/posts/12234.html"/>
+      <url>/posts/12234.html</url>
       
-        <content type="html"><![CDATA[<p>##这是我的第11篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>##这是我的第五篇文章</p>]]></content>
       
       
       <categories>
           
-          <category> -博客测试 </category>
+          <category> -测试 </category>
           
       </categories>
       
@@ -189,31 +214,6 @@
       <categories>
           
           <category> -博客测试 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> -示例 -博客 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>bu5</title>
-      <link href="/posts/12234.html"/>
-      <url>/posts/12234.html</url>
-      
-        <content type="html"><![CDATA[<p>##这是我的第五篇文章</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> -测试 </category>
           
       </categories>
       
