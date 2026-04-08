@@ -211,7 +211,7 @@
 
   <url>
     <loc>http://www.ububan.github.io/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -219,7 +219,7 @@
   
   <url>
     <loc>http://www.ububan.github.io/tags/%E7%A4%BA%E4%BE%8B-%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -228,21 +228,21 @@
   
   <url>
     <loc>http://www.ububan.github.io/categories/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ububan.github.io/categories/linux%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.ububan.github.io/categories/python%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
